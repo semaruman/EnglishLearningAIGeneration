@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LexiFlow — Practice</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,650&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            skyglass: { 50: '#f0f9ff', 100: '#e0f2fe', 200: '#bae6fd' },
+            mintglass: { 50: '#f0fdfa', 100: '#ccfbf1', 200: '#99f6e4' },
+            ink: '#0f2942',
+          },
+          fontFamily: {
+            sans: ['"DM Sans"', 'system-ui', 'sans-serif'],
+            display: ['Fraunces', 'Georgia', 'serif'],
+          },
+        },
+      },
+    };
+  </script>
+  <link rel="stylesheet" href="css/app.css" />
+</head>
+<body>
+  <div id="app-root" class="page-shell">
+    <div id="app-nav"></div>
+    <main class="page-main max-w-3xl mx-auto px-4 sm:px-6 pt-6 sm:pt-10">
+      <header class="mb-6 fade-up">
+        <p class="text-sm font-semibold text-[var(--teal-600)]">Practice</p>
+        <h1 class="font-display text-3xl font-semibold">Reading practice</h1>
+        <p class="text-muted mt-2 text-sm max-w-xl">
+          Generate a short text woven from your vocabulary. Tap highlighted words for translations.
+        </p>
+      </header>
+
+      <form id="practice-form" class="glass-panel p-5 sm:p-6 mb-6 space-y-4 fade-up" novalidate>
+        <div>
+          <label class="input-label" for="topic">Topic</label>
+          <input
+            id="topic"
+            name="topic"
+            type="text"
+            class="input-field"
+            placeholder="e.g. morning coffee at a café"
+            required
+            autocomplete="off"
+            aria-required="true"
+          />
+        </div>
+        <div class="grid sm:grid-cols-2 gap-4">
+          <div>
+            <label class="input-label" for="difficulty">Difficulty</label>
+            <select id="difficulty" name="difficulty" class="select-field" aria-label="Difficulty">
+              <option value="A1">A1 — Beginner</option>
+              <option value="A2">A2 — Elementary</option>
+              <option value="B1" selected>B1 — Intermediate</option>
+              <option value="B2">B2 — Upper intermediate</option>
+              <option value="C1">C1 — Advanced</option>
+              <option value="C2">C2 — Proficient</option>
+            </select>
+          </div>
+          <div>
+            <label class="input-label" for="length">Length</label>
+            <select id="length" name="length" class="select-field" aria-label="Length">
+              <option value="short">Short</option>
+              <option value="medium" selected>Medium</option>
+              <option value="long">Long</option>
+            </select>
+          </div>
+        </div>
+        <button id="generate-btn" type="submit" class="btn btn-primary btn-lg">Generate</button>
+      </form>
+
+      <div id="practice-result" class="mb-8" aria-live="polite"></div>
+
+      <section aria-labelledby="history-heading" class="fade-up">
+        <h2 id="history-heading" class="font-display text-xl font-semibold mb-3">Recent sessions</h2>
+        <div id="practice-history"></div>
+      </section>
+    </main>
+    <div id="bottom-nav"></div>
+  </div>
+  <div id="toast-host" class="toast-host" aria-live="polite"></div>
+  <script type="module" src="js/pages/practice.js"></script>
+</body>
+</html>

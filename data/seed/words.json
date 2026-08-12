@@ -1,0 +1,2648 @@
+﻿[
+    {
+        "word":  "hello",
+        "difficultyLevel":  "A1",
+        "translation":  "привет",
+        "exampleSentence":  "Hello, how are you today?",
+        "definition":  "used as a greeting or to begin a conversation",
+        "partOfSpeech":  "interjection",
+        "phonetic":  "/həˈləʊ/"
+    },
+    {
+        "word":  "goodbye",
+        "difficultyLevel":  "A1",
+        "translation":  "до свидания",
+        "exampleSentence":  "Goodbye, see you tomorrow!",
+        "definition":  "used when leaving or ending a conversation",
+        "partOfSpeech":  "interjection",
+        "phonetic":  "/ˌɡʊdˈbaɪ/"
+    },
+    {
+        "word":  "please",
+        "difficultyLevel":  "A1",
+        "translation":  "пожалуйста",
+        "exampleSentence":  "Could you help me, please?",
+        "definition":  "used to make a request more polite",
+        "partOfSpeech":  "adverb",
+        "phonetic":  "/pliːz/"
+    },
+    {
+        "word":  "thank",
+        "difficultyLevel":  "A1",
+        "translation":  "благодарить",
+        "exampleSentence":  "I want to thank you for your help.",
+        "definition":  "to express gratitude to someone",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/θæŋk/"
+    },
+    {
+        "word":  "yes",
+        "difficultyLevel":  "A1",
+        "translation":  "да",
+        "exampleSentence":  "Yes, I agree with you.",
+        "definition":  "used to give an affirmative response",
+        "partOfSpeech":  "adverb",
+        "phonetic":  "/jes/"
+    },
+    {
+        "word":  "no",
+        "difficultyLevel":  "A1",
+        "translation":  "нет",
+        "exampleSentence":  "No, I do not want coffee.",
+        "definition":  "used to give a negative response",
+        "partOfSpeech":  "adverb",
+        "phonetic":  "/nəʊ/"
+    },
+    {
+        "word":  "go",
+        "difficultyLevel":  "A1",
+        "translation":  "идти",
+        "exampleSentence":  "We go to school every day.",
+        "definition":  "to move or travel from one place to another",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/ɡəʊ/"
+    },
+    {
+        "word":  "come",
+        "difficultyLevel":  "A1",
+        "translation":  "приходить",
+        "exampleSentence":  "Please come to my house tonight.",
+        "definition":  "to move toward or arrive at a place",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/kʌm/"
+    },
+    {
+        "word":  "see",
+        "difficultyLevel":  "A1",
+        "translation":  "видеть",
+        "exampleSentence":  "I can see the mountains from here.",
+        "definition":  "to perceive with the eyes",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/siː/"
+    },
+    {
+        "word":  "look",
+        "difficultyLevel":  "A1",
+        "translation":  "смотреть",
+        "exampleSentence":  "Look at this beautiful picture.",
+        "definition":  "to direct your eyes in order to see",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/lʊk/"
+    },
+    {
+        "word":  "make",
+        "difficultyLevel":  "A1",
+        "translation":  "делать",
+        "exampleSentence":  "She can make a delicious cake.",
+        "definition":  "to create or produce something",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/meɪk/"
+    },
+    {
+        "word":  "take",
+        "difficultyLevel":  "A1",
+        "translation":  "брать",
+        "exampleSentence":  "Please take an umbrella with you.",
+        "definition":  "to get into your possession",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/teɪk/"
+    },
+    {
+        "word":  "give",
+        "difficultyLevel":  "A1",
+        "translation":  "давать",
+        "exampleSentence":  "Give me the book, please.",
+        "definition":  "to hand something to someone",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/ɡɪv/"
+    },
+    {
+        "word":  "get",
+        "difficultyLevel":  "A1",
+        "translation":  "получать",
+        "exampleSentence":  "Did you get my message?",
+        "definition":  "to receive or obtain something",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/ɡet/"
+    },
+    {
+        "word":  "have",
+        "difficultyLevel":  "A1",
+        "translation":  "иметь",
+        "exampleSentence":  "I have two brothers.",
+        "definition":  "to own or possess something",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/hæv/"
+    },
+    {
+        "word":  "do",
+        "difficultyLevel":  "A1",
+        "translation":  "делать",
+        "exampleSentence":  "What do you do on weekends?",
+        "definition":  "to perform an action or task",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/duː/"
+    },
+    {
+        "word":  "say",
+        "difficultyLevel":  "A1",
+        "translation":  "говорить",
+        "exampleSentence":  "What did she say about the plan?",
+        "definition":  "to speak words",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/seɪ/"
+    },
+    {
+        "word":  "know",
+        "difficultyLevel":  "A1",
+        "translation":  "знать",
+        "exampleSentence":  "I know the answer.",
+        "definition":  "to have information or understanding",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/nəʊ/"
+    },
+    {
+        "word":  "think",
+        "difficultyLevel":  "A1",
+        "translation":  "думать",
+        "exampleSentence":  "I think this idea is great.",
+        "definition":  "to use your mind to consider something",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/θɪŋk/"
+    },
+    {
+        "word":  "want",
+        "difficultyLevel":  "A1",
+        "translation":  "хотеть",
+        "exampleSentence":  "I want a cup of tea.",
+        "definition":  "to have a desire for something",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/wɒnt/"
+    },
+    {
+        "word":  "need",
+        "difficultyLevel":  "A1",
+        "translation":  "нуждаться",
+        "exampleSentence":  "You need to rest more.",
+        "definition":  "to require something because it is important",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/niːd/"
+    },
+    {
+        "word":  "like",
+        "difficultyLevel":  "A1",
+        "translation":  "нравиться",
+        "exampleSentence":  "I like this song a lot.",
+        "definition":  "to find something pleasant",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/laɪk/"
+    },
+    {
+        "word":  "love",
+        "difficultyLevel":  "A1",
+        "translation":  "любить",
+        "exampleSentence":  "They love traveling together.",
+        "definition":  "to feel deep affection for someone or something",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/lʌv/"
+    },
+    {
+        "word":  "eat",
+        "difficultyLevel":  "A1",
+        "translation":  "есть",
+        "exampleSentence":  "We eat dinner at seven.",
+        "definition":  "to put food into your mouth and swallow it",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/iːt/"
+    },
+    {
+        "word":  "drink",
+        "difficultyLevel":  "A1",
+        "translation":  "пить",
+        "exampleSentence":  "I drink water every morning.",
+        "definition":  "to take liquid into your mouth and swallow it",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/drɪŋk/"
+    },
+    {
+        "word":  "sleep",
+        "difficultyLevel":  "A1",
+        "translation":  "спать",
+        "exampleSentence":  "Babies sleep many hours a day.",
+        "definition":  "to rest with your eyes closed",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/sliːp/"
+    },
+    {
+        "word":  "work",
+        "difficultyLevel":  "A1",
+        "translation":  "работать",
+        "exampleSentence":  "He works in an office.",
+        "definition":  "to do a job or activity that requires effort",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/wɜːk/"
+    },
+    {
+        "word":  "study",
+        "difficultyLevel":  "A1",
+        "translation":  "учиться",
+        "exampleSentence":  "I study English every evening.",
+        "definition":  "to learn about a subject",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/ˈstʌdi/"
+    },
+    {
+        "word":  "read",
+        "difficultyLevel":  "A1",
+        "translation":  "читать",
+        "exampleSentence":  "She reads books before bed.",
+        "definition":  "to look at and understand written words",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/riːd/"
+    },
+    {
+        "word":  "write",
+        "difficultyLevel":  "A1",
+        "translation":  "писать",
+        "exampleSentence":  "Please write your name here.",
+        "definition":  "to mark letters or words on a surface",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/raɪt/"
+    },
+    {
+        "word":  "speak",
+        "difficultyLevel":  "A1",
+        "translation":  "говорить",
+        "exampleSentence":  "Can you speak English?",
+        "definition":  "to say words aloud",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/spiːk/"
+    },
+    {
+        "word":  "listen",
+        "difficultyLevel":  "A1",
+        "translation":  "слушать",
+        "exampleSentence":  "Listen carefully to the teacher.",
+        "definition":  "to pay attention to sound",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/ˈlɪsən/"
+    },
+    {
+        "word":  "buy",
+        "difficultyLevel":  "A1",
+        "translation":  "покупать",
+        "exampleSentence":  "I want to buy new shoes.",
+        "definition":  "to get something by paying money",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/baɪ/"
+    },
+    {
+        "word":  "sell",
+        "difficultyLevel":  "A1",
+        "translation":  "продавать",
+        "exampleSentence":  "They sell fresh fruit at the market.",
+        "definition":  "to give something in exchange for money",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/sel/"
+    },
+    {
+        "word":  "open",
+        "difficultyLevel":  "A1",
+        "translation":  "открывать",
+        "exampleSentence":  "Please open the window.",
+        "definition":  "to move something so that it is no longer closed",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/ˈəʊpən/"
+    },
+    {
+        "word":  "close",
+        "difficultyLevel":  "A1",
+        "translation":  "закрывать",
+        "exampleSentence":  "Close the door behind you.",
+        "definition":  "to move something so that it covers an opening",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/kləʊz/"
+    },
+    {
+        "word":  "help",
+        "difficultyLevel":  "A1",
+        "translation":  "помогать",
+        "exampleSentence":  "Can you help me with this bag?",
+        "definition":  "to make it easier for someone to do something",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/help/"
+    },
+    {
+        "word":  "ask",
+        "difficultyLevel":  "A1",
+        "translation":  "спрашивать",
+        "exampleSentence":  "Ask the waiter for the menu.",
+        "definition":  "to say something in order to get an answer",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/ɑːsk/"
+    },
+    {
+        "word":  "answer",
+        "difficultyLevel":  "A1",
+        "translation":  "отвечать",
+        "exampleSentence":  "Please answer the question.",
+        "definition":  "to say something as a reply",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/ˈɑːnsə/"
+    },
+    {
+        "word":  "find",
+        "difficultyLevel":  "A1",
+        "translation":  "находить",
+        "exampleSentence":  "I cannot find my keys.",
+        "definition":  "to discover something after searching",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/faɪnd/"
+    },
+    {
+        "word":  "beautiful",
+        "difficultyLevel":  "A2",
+        "translation":  "красивый",
+        "exampleSentence":  "What a beautiful day!",
+        "definition":  "pleasing to the senses or mind aesthetically",
+        "partOfSpeech":  "adjective",
+        "phonetic":  "/ˈbjuːtɪfəl/"
+    },
+    {
+        "word":  "happy",
+        "difficultyLevel":  "A1",
+        "translation":  "счастливый",
+        "exampleSentence":  "She looks happy today.",
+        "definition":  "feeling or showing pleasure",
+        "partOfSpeech":  "adjective",
+        "phonetic":  "/ˈhæpi/"
+    },
+    {
+        "word":  "sad",
+        "difficultyLevel":  "A1",
+        "translation":  "грустный",
+        "exampleSentence":  "He felt sad after the movie.",
+        "definition":  "feeling unhappy",
+        "partOfSpeech":  "adjective",
+        "phonetic":  "/sæd/"
+    },
+    {
+        "word":  "big",
+        "difficultyLevel":  "A1",
+        "translation":  "большой",
+        "exampleSentence":  "They live in a big house.",
+        "definition":  "large in size",
+        "partOfSpeech":  "adjective",
+        "phonetic":  "/bɪɡ/"
+    },
+    {
+        "word":  "small",
+        "difficultyLevel":  "A1",
+        "translation":  "маленький",
+        "exampleSentence":  "This box is too small.",
+        "definition":  "little in size",
+        "partOfSpeech":  "adjective",
+        "phonetic":  "/smɔːl/"
+    },
+    {
+        "word":  "good",
+        "difficultyLevel":  "A1",
+        "translation":  "хороший",
+        "exampleSentence":  "This is a good idea.",
+        "definition":  "of high quality or standard",
+        "partOfSpeech":  "adjective",
+        "phonetic":  "/ɡʊd/"
+    },
+    {
+        "word":  "bad",
+        "difficultyLevel":  "A1",
+        "translation":  "плохой",
+        "exampleSentence":  "The weather is bad today.",
+        "definition":  "of poor quality or unpleasant",
+        "partOfSpeech":  "adjective",
+        "phonetic":  "/bæd/"
+    },
+    {
+        "word":  "new",
+        "difficultyLevel":  "A1",
+        "translation":  "новый",
+        "exampleSentence":  "I bought a new phone.",
+        "definition":  "recently made or created",
+        "partOfSpeech":  "adjective",
+        "phonetic":  "/njuː/"
+    },
+    {
+        "word":  "old",
+        "difficultyLevel":  "A1",
+        "translation":  "старый",
+        "exampleSentence":  "This is an old building.",
+        "definition":  "having lived or existed for a long time",
+        "partOfSpeech":  "adjective",
+        "phonetic":  "/əʊld/"
+    },
+    {
+        "word":  "hot",
+        "difficultyLevel":  "A1",
+        "translation":  "горячий",
+        "exampleSentence":  "The soup is too hot.",
+        "definition":  "having a high temperature",
+        "partOfSpeech":  "adjective",
+        "phonetic":  "/hɒt/"
+    },
+    {
+        "word":  "cold",
+        "difficultyLevel":  "A1",
+        "translation":  "холодный",
+        "exampleSentence":  "It is cold outside.",
+        "definition":  "having a low temperature",
+        "partOfSpeech":  "adjective",
+        "phonetic":  "/kəʊld/"
+    },
+    {
+        "word":  "easy",
+        "difficultyLevel":  "A1",
+        "translation":  "лёгкий",
+        "exampleSentence":  "This exercise is easy.",
+        "definition":  "not difficult",
+        "partOfSpeech":  "adjective",
+        "phonetic":  "/ˈiːzi/"
+    },
+    {
+        "word":  "difficult",
+        "difficultyLevel":  "A2",
+        "translation":  "трудный",
+        "exampleSentence":  "The test was difficult.",
+        "definition":  "needing a lot of effort or skill",
+        "partOfSpeech":  "adjective",
+        "phonetic":  "/ˈdɪfɪkəlt/"
+    },
+    {
+        "word":  "important",
+        "difficultyLevel":  "A2",
+        "translation":  "важный",
+        "exampleSentence":  "This meeting is important.",
+        "definition":  "of great significance or value",
+        "partOfSpeech":  "adjective",
+        "phonetic":  "/ɪmˈpɔːtənt/"
+    },
+    {
+        "word":  "interesting",
+        "difficultyLevel":  "A2",
+        "translation":  "интересный",
+        "exampleSentence":  "The book is very interesting.",
+        "definition":  "holding your attention",
+        "partOfSpeech":  "adjective",
+        "phonetic":  "/ˈɪntrəstɪŋ/"
+    },
+    {
+        "word":  "travel",
+        "difficultyLevel":  "A2",
+        "translation":  "путешествовать",
+        "exampleSentence":  "We love to travel in summer.",
+        "definition":  "to go from one place to another",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/ˈtrævəl/"
+    },
+    {
+        "word":  "airport",
+        "difficultyLevel":  "A2",
+        "translation":  "аэропорт",
+        "exampleSentence":  "We arrived at the airport early.",
+        "definition":  "a place where aircraft take off and land",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈeəpɔːt/"
+    },
+    {
+        "word":  "flight",
+        "difficultyLevel":  "A2",
+        "translation":  "рейс",
+        "exampleSentence":  "Our flight leaves at noon.",
+        "definition":  "a journey by air",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/flaɪt/"
+    },
+    {
+        "word":  "ticket",
+        "difficultyLevel":  "A2",
+        "translation":  "билет",
+        "exampleSentence":  "I bought a train ticket online.",
+        "definition":  "a piece of paper or card that allows entry or travel",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈtɪkɪt/"
+    },
+    {
+        "word":  "passport",
+        "difficultyLevel":  "A2",
+        "translation":  "паспорт",
+        "exampleSentence":  "Do not forget your passport.",
+        "definition":  "an official document for international travel",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈpɑːspɔːt/"
+    },
+    {
+        "word":  "hotel",
+        "difficultyLevel":  "A2",
+        "translation":  "отель",
+        "exampleSentence":  "We stayed at a nice hotel.",
+        "definition":  "a place that provides paid lodging",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/həʊˈtel/"
+    },
+    {
+        "word":  "luggage",
+        "difficultyLevel":  "A2",
+        "translation":  "багаж",
+        "exampleSentence":  "Please take your luggage with you.",
+        "definition":  "bags and suitcases taken on a trip",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈlʌɡɪdʒ/"
+    },
+    {
+        "word":  "map",
+        "difficultyLevel":  "A2",
+        "translation":  "карта",
+        "exampleSentence":  "We used a map to find the museum.",
+        "definition":  "a drawing of an area showing roads and places",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/mæp/"
+    },
+    {
+        "word":  "city",
+        "difficultyLevel":  "A1",
+        "translation":  "город",
+        "exampleSentence":  "Paris is a beautiful city.",
+        "definition":  "a large town",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈsɪti/"
+    },
+    {
+        "word":  "country",
+        "difficultyLevel":  "A1",
+        "translation":  "страна",
+        "exampleSentence":  "Which country are you from?",
+        "definition":  "a nation with its own government",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈkʌntri/"
+    },
+    {
+        "word":  "road",
+        "difficultyLevel":  "A1",
+        "translation":  "дорога",
+        "exampleSentence":  "This road leads to the beach.",
+        "definition":  "a way between places for vehicles",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/rəʊd/"
+    },
+    {
+        "word":  "station",
+        "difficultyLevel":  "A2",
+        "translation":  "станция",
+        "exampleSentence":  "Meet me at the train station.",
+        "definition":  "a place where trains or buses stop",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈsteɪʃən/"
+    },
+    {
+        "word":  "bus",
+        "difficultyLevel":  "A1",
+        "translation":  "автобус",
+        "exampleSentence":  "I take the bus to work.",
+        "definition":  "a large vehicle that carries passengers",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/bʌs/"
+    },
+    {
+        "word":  "train",
+        "difficultyLevel":  "A1",
+        "translation":  "поезд",
+        "exampleSentence":  "The train is arriving now.",
+        "definition":  "a set of carriages that runs on rails",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/treɪn/"
+    },
+    {
+        "word":  "taxi",
+        "difficultyLevel":  "A2",
+        "translation":  "такси",
+        "exampleSentence":  "Let us take a taxi to the hotel.",
+        "definition":  "a car that carries passengers for a fare",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈtæksi/"
+    },
+    {
+        "word":  "reservation",
+        "difficultyLevel":  "B1",
+        "translation":  "бронирование",
+        "exampleSentence":  "I have a reservation for two.",
+        "definition":  "an arrangement to keep something for later use",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˌrezəˈveɪʃən/"
+    },
+    {
+        "word":  "tourist",
+        "difficultyLevel":  "A2",
+        "translation":  "турист",
+        "exampleSentence":  "Many tourists visit this museum.",
+        "definition":  "a person who travels for pleasure",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈtʊərɪst/"
+    },
+    {
+        "word":  "guide",
+        "difficultyLevel":  "A2",
+        "translation":  "гид",
+        "exampleSentence":  "Our guide explained the history.",
+        "definition":  "a person who shows visitors around",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ɡaɪd/"
+    },
+    {
+        "word":  "beach",
+        "difficultyLevel":  "A2",
+        "translation":  "пляж",
+        "exampleSentence":  "We spent the day at the beach.",
+        "definition":  "an area of sand beside the sea",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/biːtʃ/"
+    },
+    {
+        "word":  "museum",
+        "difficultyLevel":  "A2",
+        "translation":  "музей",
+        "exampleSentence":  "The museum opens at ten.",
+        "definition":  "a building that displays objects of interest",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/mjuːˈziːəm/"
+    },
+    {
+        "word":  "food",
+        "difficultyLevel":  "A1",
+        "translation":  "еда",
+        "exampleSentence":  "Italian food is delicious.",
+        "definition":  "things that people eat",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/fuːd/"
+    },
+    {
+        "word":  "breakfast",
+        "difficultyLevel":  "A1",
+        "translation":  "завтрак",
+        "exampleSentence":  "I eat breakfast at eight.",
+        "definition":  "the first meal of the day",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈbrekfəst/"
+    },
+    {
+        "word":  "lunch",
+        "difficultyLevel":  "A1",
+        "translation":  "обед",
+        "exampleSentence":  "Let us have lunch together.",
+        "definition":  "a meal eaten in the middle of the day",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/lʌntʃ/"
+    },
+    {
+        "word":  "dinner",
+        "difficultyLevel":  "A1",
+        "translation":  "ужин",
+        "exampleSentence":  "Dinner is ready.",
+        "definition":  "the main meal of the evening",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈdɪnə/"
+    },
+    {
+        "word":  "bread",
+        "difficultyLevel":  "A1",
+        "translation":  "хлеб",
+        "exampleSentence":  "Fresh bread smells wonderful.",
+        "definition":  "a food made from flour and water",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/bred/"
+    },
+    {
+        "word":  "cheese",
+        "difficultyLevel":  "A1",
+        "translation":  "сыр",
+        "exampleSentence":  "I like cheese on my sandwich.",
+        "definition":  "a food made from milk",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/tʃiːz/"
+    },
+    {
+        "word":  "meat",
+        "difficultyLevel":  "A1",
+        "translation":  "мясо",
+        "exampleSentence":  "Do you eat meat?",
+        "definition":  "the flesh of animals used as food",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/miːt/"
+    },
+    {
+        "word":  "fish",
+        "difficultyLevel":  "A1",
+        "translation":  "рыба",
+        "exampleSentence":  "We ordered grilled fish.",
+        "definition":  "an animal that lives in water",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/fɪʃ/"
+    },
+    {
+        "word":  "vegetable",
+        "difficultyLevel":  "A2",
+        "translation":  "овощ",
+        "exampleSentence":  "Eat more vegetables every day.",
+        "definition":  "a plant used as food",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈvedʒtəbl/"
+    },
+    {
+        "word":  "fruit",
+        "difficultyLevel":  "A1",
+        "translation":  "фрукт",
+        "exampleSentence":  "Apples are my favorite fruit.",
+        "definition":  "the sweet product of a tree or plant",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/fruːt/"
+    },
+    {
+        "word":  "apple",
+        "difficultyLevel":  "A1",
+        "translation":  "яблоко",
+        "exampleSentence":  "She ate an apple after lunch.",
+        "definition":  "a round fruit with red or green skin",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈæpl/"
+    },
+    {
+        "word":  "water",
+        "difficultyLevel":  "A1",
+        "translation":  "вода",
+        "exampleSentence":  "Please bring me some water.",
+        "definition":  "a clear liquid essential for life",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈwɔːtə/"
+    },
+    {
+        "word":  "coffee",
+        "difficultyLevel":  "A1",
+        "translation":  "кофе",
+        "exampleSentence":  "Would you like some coffee?",
+        "definition":  "a hot drink made from coffee beans",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈkɒfi/"
+    },
+    {
+        "word":  "tea",
+        "difficultyLevel":  "A1",
+        "translation":  "чай",
+        "exampleSentence":  "I drink tea every morning.",
+        "definition":  "a hot drink made by soaking leaves in water",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/tiː/"
+    },
+    {
+        "word":  "sugar",
+        "difficultyLevel":  "A1",
+        "translation":  "сахар",
+        "exampleSentence":  "Do you take sugar in your tea?",
+        "definition":  "a sweet substance used to flavor food",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈʃʊɡə/"
+    },
+    {
+        "word":  "salt",
+        "difficultyLevel":  "A1",
+        "translation":  "соль",
+        "exampleSentence":  "Add a little salt to the soup.",
+        "definition":  "a white substance used to season food",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/sɔːlt/"
+    },
+    {
+        "word":  "restaurant",
+        "difficultyLevel":  "A2",
+        "translation":  "ресторан",
+        "exampleSentence":  "We booked a table at a restaurant.",
+        "definition":  "a place where meals are prepared and served",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈrestrɒnt/"
+    },
+    {
+        "word":  "menu",
+        "difficultyLevel":  "A2",
+        "translation":  "меню",
+        "exampleSentence":  "Could I see the menu, please?",
+        "definition":  "a list of dishes available in a restaurant",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈmenjuː/"
+    },
+    {
+        "word":  "hungry",
+        "difficultyLevel":  "A1",
+        "translation":  "голодный",
+        "exampleSentence":  "I am hungry after work.",
+        "definition":  "feeling the need for food",
+        "partOfSpeech":  "adjective",
+        "phonetic":  "/ˈhʌŋɡri/"
+    },
+    {
+        "word":  "delicious",
+        "difficultyLevel":  "A2",
+        "translation":  "вкусный",
+        "exampleSentence":  "This cake is delicious.",
+        "definition":  "having a very pleasant taste",
+        "partOfSpeech":  "adjective",
+        "phonetic":  "/dɪˈlɪʃəs/"
+    },
+    {
+        "word":  "cook",
+        "difficultyLevel":  "A2",
+        "translation":  "готовить",
+        "exampleSentence":  "He likes to cook Italian food.",
+        "definition":  "to prepare food by heating it",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/kʊk/"
+    },
+    {
+        "word":  "recipe",
+        "difficultyLevel":  "B1",
+        "translation":  "рецепт",
+        "exampleSentence":  "I found a new pasta recipe.",
+        "definition":  "a set of instructions for preparing a dish",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈresəpi/"
+    },
+    {
+        "word":  "morning",
+        "difficultyLevel":  "A1",
+        "translation":  "утро",
+        "exampleSentence":  "Good morning!",
+        "definition":  "the early part of the day",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈmɔːnɪŋ/"
+    },
+    {
+        "word":  "evening",
+        "difficultyLevel":  "A1",
+        "translation":  "вечер",
+        "exampleSentence":  "We meet in the evening.",
+        "definition":  "the later part of the day",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈiːvnɪŋ/"
+    },
+    {
+        "word":  "night",
+        "difficultyLevel":  "A1",
+        "translation":  "ночь",
+        "exampleSentence":  "Good night and sleep well.",
+        "definition":  "the time of darkness between sunset and sunrise",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/naɪt/"
+    },
+    {
+        "word":  "today",
+        "difficultyLevel":  "A1",
+        "translation":  "сегодня",
+        "exampleSentence":  "Today is Monday.",
+        "definition":  "on this day",
+        "partOfSpeech":  "adverb",
+        "phonetic":  "/təˈdeɪ/"
+    },
+    {
+        "word":  "tomorrow",
+        "difficultyLevel":  "A1",
+        "translation":  "завтра",
+        "exampleSentence":  "See you tomorrow.",
+        "definition":  "on the day after today",
+        "partOfSpeech":  "adverb",
+        "phonetic":  "/təˈmɒrəʊ/"
+    },
+    {
+        "word":  "yesterday",
+        "difficultyLevel":  "A1",
+        "translation":  "вчера",
+        "exampleSentence":  "I met her yesterday.",
+        "definition":  "on the day before today",
+        "partOfSpeech":  "adverb",
+        "phonetic":  "/ˈjestədeɪ/"
+    },
+    {
+        "word":  "home",
+        "difficultyLevel":  "A1",
+        "translation":  "дом",
+        "exampleSentence":  "I am going home now.",
+        "definition":  "the place where you live",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/həʊm/"
+    },
+    {
+        "word":  "family",
+        "difficultyLevel":  "A1",
+        "translation":  "семья",
+        "exampleSentence":  "My family lives in London.",
+        "definition":  "a group of people related by blood or marriage",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈfæməli/"
+    },
+    {
+        "word":  "friend",
+        "difficultyLevel":  "A1",
+        "translation":  "друг",
+        "exampleSentence":  "She is my best friend.",
+        "definition":  "a person you know and like",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/frend/"
+    },
+    {
+        "word":  "school",
+        "difficultyLevel":  "A1",
+        "translation":  "школа",
+        "exampleSentence":  "Children go to school every weekday.",
+        "definition":  "a place where children are educated",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/skuːl/"
+    },
+    {
+        "word":  "job",
+        "difficultyLevel":  "A1",
+        "translation":  "работа",
+        "exampleSentence":  "He found a new job.",
+        "definition":  "regular paid work",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/dʒɒb/"
+    },
+    {
+        "word":  "money",
+        "difficultyLevel":  "A1",
+        "translation":  "деньги",
+        "exampleSentence":  "I need to save more money.",
+        "definition":  "coins or notes used to buy things",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈmʌni/"
+    },
+    {
+        "word":  "time",
+        "difficultyLevel":  "A1",
+        "translation":  "время",
+        "exampleSentence":  "I do not have much time.",
+        "definition":  "the progression of moments measured in hours and days",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/taɪm/"
+    },
+    {
+        "word":  "day",
+        "difficultyLevel":  "A1",
+        "translation":  "день",
+        "exampleSentence":  "Have a nice day!",
+        "definition":  "a period of twenty-four hours",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/deɪ/"
+    },
+    {
+        "word":  "week",
+        "difficultyLevel":  "A1",
+        "translation":  "неделя",
+        "exampleSentence":  "I work five days a week.",
+        "definition":  "a period of seven days",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/wiːk/"
+    },
+    {
+        "word":  "month",
+        "difficultyLevel":  "A1",
+        "translation":  "месяц",
+        "exampleSentence":  "August is a warm month.",
+        "definition":  "one of the twelve periods of a year",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/mʌnθ/"
+    },
+    {
+        "word":  "year",
+        "difficultyLevel":  "A1",
+        "translation":  "год",
+        "exampleSentence":  "This year has been busy.",
+        "definition":  "a period of twelve months",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/jɪə/"
+    },
+    {
+        "word":  "weather",
+        "difficultyLevel":  "A1",
+        "translation":  "погода",
+        "exampleSentence":  "The weather is sunny today.",
+        "definition":  "the condition of the atmosphere",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈweðə/"
+    },
+    {
+        "word":  "rain",
+        "difficultyLevel":  "A1",
+        "translation":  "дождь",
+        "exampleSentence":  "Take a coat in case of rain.",
+        "definition":  "water that falls from clouds",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/reɪn/"
+    },
+    {
+        "word":  "sun",
+        "difficultyLevel":  "A1",
+        "translation":  "солнце",
+        "exampleSentence":  "The sun is shining brightly.",
+        "definition":  "the star that provides light and heat to Earth",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/sʌn/"
+    },
+    {
+        "word":  "phone",
+        "difficultyLevel":  "A1",
+        "translation":  "телефон",
+        "exampleSentence":  "My phone battery is low.",
+        "definition":  "a device used to talk to people at a distance",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/fəʊn/"
+    },
+    {
+        "word":  "computer",
+        "difficultyLevel":  "A2",
+        "translation":  "компьютер",
+        "exampleSentence":  "I use a computer for work.",
+        "definition":  "an electronic machine for storing and processing data",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/kəmˈpjuːtə/"
+    },
+    {
+        "word":  "internet",
+        "difficultyLevel":  "A2",
+        "translation":  "интернет",
+        "exampleSentence":  "The internet is slow today.",
+        "definition":  "a global computer network",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈɪntənet/"
+    },
+    {
+        "word":  "email",
+        "difficultyLevel":  "A2",
+        "translation":  "электронная почта",
+        "exampleSentence":  "Please send me an email.",
+        "definition":  "a message sent electronically",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈiːmeɪl/"
+    },
+    {
+        "word":  "meeting",
+        "difficultyLevel":  "A2",
+        "translation":  "встреча",
+        "exampleSentence":  "The meeting starts at nine.",
+        "definition":  "an occasion when people come together",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈmiːtɪŋ/"
+    },
+    {
+        "word":  "office",
+        "difficultyLevel":  "A2",
+        "translation":  "офис",
+        "exampleSentence":  "She works in a large office.",
+        "definition":  "a room or building where people work",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈɒfɪs/"
+    },
+    {
+        "word":  "company",
+        "difficultyLevel":  "A2",
+        "translation":  "компания",
+        "exampleSentence":  "He works for a tech company.",
+        "definition":  "a business organization",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈkʌmpəni/"
+    },
+    {
+        "word":  "manager",
+        "difficultyLevel":  "B1",
+        "translation":  "менеджер",
+        "exampleSentence":  "Talk to your manager about leave.",
+        "definition":  "a person who is in charge of people or a business",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈmænɪdʒə/"
+    },
+    {
+        "word":  "employee",
+        "difficultyLevel":  "B1",
+        "translation":  "сотрудник",
+        "exampleSentence":  "Every employee gets training.",
+        "definition":  "a person who works for a company",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ɪmˈplɔɪiː/"
+    },
+    {
+        "word":  "salary",
+        "difficultyLevel":  "B1",
+        "translation":  "зарплата",
+        "exampleSentence":  "Her salary increased this year.",
+        "definition":  "money paid regularly for work",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈsæləri/"
+    },
+    {
+        "word":  "project",
+        "difficultyLevel":  "B1",
+        "translation":  "проект",
+        "exampleSentence":  "We finished the project on time.",
+        "definition":  "a planned piece of work",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈprɒdʒekt/"
+    },
+    {
+        "word":  "deadline",
+        "difficultyLevel":  "B1",
+        "translation":  "крайний срок",
+        "exampleSentence":  "The deadline is Friday.",
+        "definition":  "a time by which something must be done",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈdedlaɪn/"
+    },
+    {
+        "word":  "client",
+        "difficultyLevel":  "B1",
+        "translation":  "клиент",
+        "exampleSentence":  "The client liked our proposal.",
+        "definition":  "a person who uses professional services",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈklaɪənt/"
+    },
+    {
+        "word":  "contract",
+        "difficultyLevel":  "B1",
+        "translation":  "контракт",
+        "exampleSentence":  "They signed a new contract.",
+        "definition":  "a formal written agreement",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈkɒntrækt/"
+    },
+    {
+        "word":  "business",
+        "difficultyLevel":  "A2",
+        "translation":  "бизнес",
+        "exampleSentence":  "She started her own business.",
+        "definition":  "commercial activity of buying and selling",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈbɪznəs/"
+    },
+    {
+        "word":  "market",
+        "difficultyLevel":  "A2",
+        "translation":  "рынок",
+        "exampleSentence":  "The market opens early.",
+        "definition":  "a place or system for buying and selling",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈmɑːkɪt/"
+    },
+    {
+        "word":  "product",
+        "difficultyLevel":  "B1",
+        "translation":  "продукт",
+        "exampleSentence":  "This product is popular.",
+        "definition":  "something that is made or grown to be sold",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈprɒdʌkt/"
+    },
+    {
+        "word":  "service",
+        "difficultyLevel":  "B1",
+        "translation":  "услуга",
+        "exampleSentence":  "Customer service was excellent.",
+        "definition":  "work done for customers",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈsɜːvɪs/"
+    },
+    {
+        "word":  "price",
+        "difficultyLevel":  "A2",
+        "translation":  "цена",
+        "exampleSentence":  "The price is too high.",
+        "definition":  "the amount of money needed to buy something",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/praɪs/"
+    },
+    {
+        "word":  "profit",
+        "difficultyLevel":  "B2",
+        "translation":  "прибыль",
+        "exampleSentence":  "The company made a profit.",
+        "definition":  "money gained from business after costs",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈprɒfɪt/"
+    },
+    {
+        "word":  "negotiate",
+        "difficultyLevel":  "B2",
+        "translation":  "вести переговоры",
+        "exampleSentence":  "They negotiated a better deal.",
+        "definition":  "to discuss in order to reach an agreement",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/nɪˈɡəʊʃieɪt/"
+    },
+    {
+        "word":  "presentation",
+        "difficultyLevel":  "B1",
+        "translation":  "презентация",
+        "exampleSentence":  "Her presentation was clear.",
+        "definition":  "a formal talk about a topic",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˌprezənˈteɪʃən/"
+    },
+    {
+        "word":  "schedule",
+        "difficultyLevel":  "B1",
+        "translation":  "расписание",
+        "exampleSentence":  "Check the train schedule.",
+        "definition":  "a plan of times for activities",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈʃedjuːl/"
+    },
+    {
+        "word":  "appointment",
+        "difficultyLevel":  "B1",
+        "translation":  "запись",
+        "exampleSentence":  "I have a dentist appointment.",
+        "definition":  "an arrangement to meet at a particular time",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/əˈpɔɪntmənt/"
+    },
+    {
+        "word":  "experience",
+        "difficultyLevel":  "B1",
+        "translation":  "опыт",
+        "exampleSentence":  "She has a lot of experience.",
+        "definition":  "knowledge gained from doing something",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ɪkˈspɪəriəns/"
+    },
+    {
+        "word":  "opportunity",
+        "difficultyLevel":  "B1",
+        "translation":  "возможность",
+        "exampleSentence":  "This is a great opportunity.",
+        "definition":  "a chance to do something",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˌɒpəˈtjuːnəti/"
+    },
+    {
+        "word":  "challenge",
+        "difficultyLevel":  "B1",
+        "translation":  "вызов",
+        "exampleSentence":  "Learning a language is a challenge.",
+        "definition":  "a difficult task that tests ability",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈtʃælɪndʒ/"
+    },
+    {
+        "word":  "success",
+        "difficultyLevel":  "B1",
+        "translation":  "успех",
+        "exampleSentence":  "Hard work leads to success.",
+        "definition":  "the achievement of a desired result",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/səkˈses/"
+    },
+    {
+        "word":  "decision",
+        "difficultyLevel":  "B1",
+        "translation":  "решение",
+        "exampleSentence":  "It was a difficult decision.",
+        "definition":  "a choice made after thinking",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/dɪˈsɪʒən/"
+    },
+    {
+        "word":  "problem",
+        "difficultyLevel":  "A2",
+        "translation":  "проблема",
+        "exampleSentence":  "We solved the problem quickly.",
+        "definition":  "a situation that needs to be solved",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈprɒbləm/"
+    },
+    {
+        "word":  "solution",
+        "difficultyLevel":  "B1",
+        "translation":  "решение",
+        "exampleSentence":  "We found a good solution.",
+        "definition":  "a way of solving a problem",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/səˈluːʃən/"
+    },
+    {
+        "word":  "advice",
+        "difficultyLevel":  "B1",
+        "translation":  "совет",
+        "exampleSentence":  "Thank you for your advice.",
+        "definition":  "an opinion about what someone should do",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ədˈvaɪs/"
+    },
+    {
+        "word":  "improve",
+        "difficultyLevel":  "A2",
+        "translation":  "улучшать",
+        "exampleSentence":  "I want to improve my English.",
+        "definition":  "to make or become better",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/ɪmˈpruːv/"
+    },
+    {
+        "word":  "practice",
+        "difficultyLevel":  "A2",
+        "translation":  "практиковаться",
+        "exampleSentence":  "Practice speaking every day.",
+        "definition":  "to do something regularly to improve",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/ˈpræktɪs/"
+    },
+    {
+        "word":  "learn",
+        "difficultyLevel":  "A1",
+        "translation":  "учить",
+        "exampleSentence":  "Children learn quickly.",
+        "definition":  "to gain knowledge or skill",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/lɜːn/"
+    },
+    {
+        "word":  "teach",
+        "difficultyLevel":  "A2",
+        "translation":  "учить",
+        "exampleSentence":  "She teaches mathematics.",
+        "definition":  "to give knowledge or skills to someone",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/tiːtʃ/"
+    },
+    {
+        "word":  "remember",
+        "difficultyLevel":  "A2",
+        "translation":  "помнить",
+        "exampleSentence":  "Do you remember his name?",
+        "definition":  "to keep information in your mind",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/rɪˈmembə/"
+    },
+    {
+        "word":  "forget",
+        "difficultyLevel":  "A2",
+        "translation":  "забывать",
+        "exampleSentence":  "Do not forget your keys.",
+        "definition":  "to fail to remember",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/fəˈɡet/"
+    },
+    {
+        "word":  "understand",
+        "difficultyLevel":  "A2",
+        "translation":  "понимать",
+        "exampleSentence":  "I understand the question.",
+        "definition":  "to know the meaning of something",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/ˌʌndəˈstænd/"
+    },
+    {
+        "word":  "explain",
+        "difficultyLevel":  "A2",
+        "translation":  "объяснять",
+        "exampleSentence":  "Can you explain this word?",
+        "definition":  "to make something clear",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/ɪkˈspleɪn/"
+    },
+    {
+        "word":  "choose",
+        "difficultyLevel":  "A2",
+        "translation":  "выбирать",
+        "exampleSentence":  "Choose a book from the shelf.",
+        "definition":  "to decide which thing you want",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/tʃuːz/"
+    },
+    {
+        "word":  "decide",
+        "difficultyLevel":  "A2",
+        "translation":  "решать",
+        "exampleSentence":  "We decided to stay home.",
+        "definition":  "to make a choice about something",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/dɪˈsaɪd/"
+    },
+    {
+        "word":  "change",
+        "difficultyLevel":  "A2",
+        "translation":  "менять",
+        "exampleSentence":  "I need to change my plans.",
+        "definition":  "to make something different",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/tʃeɪndʒ/"
+    },
+    {
+        "word":  "start",
+        "difficultyLevel":  "A1",
+        "translation":  "начинать",
+        "exampleSentence":  "Let us start the lesson.",
+        "definition":  "to begin doing something",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/stɑːt/"
+    },
+    {
+        "word":  "finish",
+        "difficultyLevel":  "A1",
+        "translation":  "заканчивать",
+        "exampleSentence":  "I finished my homework.",
+        "definition":  "to complete something",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/ˈfɪnɪʃ/"
+    },
+    {
+        "word":  "wait",
+        "difficultyLevel":  "A1",
+        "translation":  "ждать",
+        "exampleSentence":  "Please wait a moment.",
+        "definition":  "to stay until something happens",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/weɪt/"
+    },
+    {
+        "word":  "arrive",
+        "difficultyLevel":  "A2",
+        "translation":  "прибывать",
+        "exampleSentence":  "The train will arrive soon.",
+        "definition":  "to reach a place",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/əˈraɪv/"
+    },
+    {
+        "word":  "leave",
+        "difficultyLevel":  "A1",
+        "translation":  "уходить",
+        "exampleSentence":  "We leave early tomorrow.",
+        "definition":  "to go away from a place",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/liːv/"
+    },
+    {
+        "word":  "return",
+        "difficultyLevel":  "A2",
+        "translation":  "возвращаться",
+        "exampleSentence":  "I will return next week.",
+        "definition":  "to come or go back",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/rɪˈtɜːn/"
+    },
+    {
+        "word":  "visit",
+        "difficultyLevel":  "A2",
+        "translation":  "посещать",
+        "exampleSentence":  "We visited the museum yesterday.",
+        "definition":  "to go to see a place or person",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/ˈvɪzɪt/"
+    },
+    {
+        "word":  "stay",
+        "difficultyLevel":  "A1",
+        "translation":  "оставаться",
+        "exampleSentence":  "We stayed at a hotel.",
+        "definition":  "to remain in a place",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/steɪ/"
+    },
+    {
+        "word":  "book",
+        "difficultyLevel":  "A2",
+        "translation":  "бронировать",
+        "exampleSentence":  "I booked a flight to Rome.",
+        "definition":  "to arrange to have something at a later time",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/bʊk/"
+    },
+    {
+        "word":  "pay",
+        "difficultyLevel":  "A1",
+        "translation":  "платить",
+        "exampleSentence":  "How would you like to pay?",
+        "definition":  "to give money for something",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/peɪ/"
+    },
+    {
+        "word":  "cost",
+        "difficultyLevel":  "A1",
+        "translation":  "стоить",
+        "exampleSentence":  "How much does this cost?",
+        "definition":  "to have a price of a certain amount",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/kɒst/"
+    },
+    {
+        "word":  "cheap",
+        "difficultyLevel":  "A1",
+        "translation":  "дешёвый",
+        "exampleSentence":  "These shoes are cheap.",
+        "definition":  "low in price",
+        "partOfSpeech":  "adjective",
+        "phonetic":  "/tʃiːp/"
+    },
+    {
+        "word":  "expensive",
+        "difficultyLevel":  "A2",
+        "translation":  "дорогой",
+        "exampleSentence":  "That watch is expensive.",
+        "definition":  "costing a lot of money",
+        "partOfSpeech":  "adjective",
+        "phonetic":  "/ɪkˈspensɪv/"
+    },
+    {
+        "word":  "free",
+        "difficultyLevel":  "A1",
+        "translation":  "бесплатный",
+        "exampleSentence":  "Entry to the park is free.",
+        "definition":  "costing nothing",
+        "partOfSpeech":  "adjective",
+        "phonetic":  "/friː/"
+    },
+    {
+        "word":  "busy",
+        "difficultyLevel":  "A1",
+        "translation":  "занятый",
+        "exampleSentence":  "I am busy this afternoon.",
+        "definition":  "having a lot to do",
+        "partOfSpeech":  "adjective",
+        "phonetic":  "/ˈbɪzi/"
+    },
+    {
+        "word":  "tired",
+        "difficultyLevel":  "A1",
+        "translation":  "уставший",
+        "exampleSentence":  "I feel tired after work.",
+        "definition":  "needing rest or sleep",
+        "partOfSpeech":  "adjective",
+        "phonetic":  "/ˈtaɪəd/"
+    },
+    {
+        "word":  "healthy",
+        "difficultyLevel":  "A2",
+        "translation":  "здоровый",
+        "exampleSentence":  "Eating vegetables keeps you healthy.",
+        "definition":  "in good physical condition",
+        "partOfSpeech":  "adjective",
+        "phonetic":  "/ˈhelθi/"
+    },
+    {
+        "word":  "safe",
+        "difficultyLevel":  "A2",
+        "translation":  "безопасный",
+        "exampleSentence":  "This neighborhood is safe.",
+        "definition":  "protected from danger",
+        "partOfSpeech":  "adjective",
+        "phonetic":  "/seɪf/"
+    },
+    {
+        "word":  "dangerous",
+        "difficultyLevel":  "A2",
+        "translation":  "опасный",
+        "exampleSentence":  "Crossing here is dangerous.",
+        "definition":  "likely to cause harm",
+        "partOfSpeech":  "adjective",
+        "phonetic":  "/ˈdeɪndʒərəs/"
+    },
+    {
+        "word":  "useful",
+        "difficultyLevel":  "A2",
+        "translation":  "полезный",
+        "exampleSentence":  "This app is very useful.",
+        "definition":  "able to be used for a purpose",
+        "partOfSpeech":  "adjective",
+        "phonetic":  "/ˈjuːsfəl/"
+    },
+    {
+        "word":  "possible",
+        "difficultyLevel":  "A2",
+        "translation":  "возможный",
+        "exampleSentence":  "Is it possible to arrive earlier?",
+        "definition":  "able to be done or achieved",
+        "partOfSpeech":  "adjective",
+        "phonetic":  "/ˈpɒsəbl/"
+    },
+    {
+        "word":  "necessary",
+        "difficultyLevel":  "B1",
+        "translation":  "необходимый",
+        "exampleSentence":  "A passport is necessary for travel.",
+        "definition":  "needed in order to achieve something",
+        "partOfSpeech":  "adjective",
+        "phonetic":  "/ˈnesəsəri/"
+    },
+    {
+        "word":  "available",
+        "difficultyLevel":  "B1",
+        "translation":  "доступный",
+        "exampleSentence":  "Is this room available tonight?",
+        "definition":  "able to be used or obtained",
+        "partOfSpeech":  "adjective",
+        "phonetic":  "/əˈveɪləbl/"
+    },
+    {
+        "word":  "reliable",
+        "difficultyLevel":  "B2",
+        "translation":  "надёжный",
+        "exampleSentence":  "She is a reliable colleague.",
+        "definition":  "able to be trusted",
+        "partOfSpeech":  "adjective",
+        "phonetic":  "/rɪˈlaɪəbl/"
+    },
+    {
+        "word":  "efficient",
+        "difficultyLevel":  "B2",
+        "translation":  "эффективный",
+        "exampleSentence":  "This method is more efficient.",
+        "definition":  "working well without wasting time or resources",
+        "partOfSpeech":  "adjective",
+        "phonetic":  "/ɪˈfɪʃənt/"
+    },
+    {
+        "word":  "professional",
+        "difficultyLevel":  "B1",
+        "translation":  "профессиональный",
+        "exampleSentence":  "He gave a professional answer.",
+        "definition":  "relating to a job that needs special training",
+        "partOfSpeech":  "adjective",
+        "phonetic":  "/prəˈfeʃənl/"
+    },
+    {
+        "word":  "comfortable",
+        "difficultyLevel":  "A2",
+        "translation":  "удобный",
+        "exampleSentence":  "These shoes are comfortable.",
+        "definition":  "providing physical ease",
+        "partOfSpeech":  "adjective",
+        "phonetic":  "/ˈkʌmftəbl/"
+    },
+    {
+        "word":  "famous",
+        "difficultyLevel":  "A2",
+        "translation":  "известный",
+        "exampleSentence":  "Paris is a famous city.",
+        "definition":  "known by many people",
+        "partOfSpeech":  "adjective",
+        "phonetic":  "/ˈfeɪməs/"
+    },
+    {
+        "word":  "popular",
+        "difficultyLevel":  "A2",
+        "translation":  "популярный",
+        "exampleSentence":  "This cafe is very popular.",
+        "definition":  "liked by many people",
+        "partOfSpeech":  "adjective",
+        "phonetic":  "/ˈpɒpjələ/"
+    },
+    {
+        "word":  "modern",
+        "difficultyLevel":  "A2",
+        "translation":  "современный",
+        "exampleSentence":  "They live in a modern apartment.",
+        "definition":  "relating to the present time",
+        "partOfSpeech":  "adjective",
+        "phonetic":  "/ˈmɒdn/"
+    },
+    {
+        "word":  "traditional",
+        "difficultyLevel":  "B1",
+        "translation":  "традиционный",
+        "exampleSentence":  "We tried traditional food.",
+        "definition":  "following long-established customs",
+        "partOfSpeech":  "adjective",
+        "phonetic":  "/trəˈdɪʃənl/"
+    },
+    {
+        "word":  "local",
+        "difficultyLevel":  "A2",
+        "translation":  "местный",
+        "exampleSentence":  "Ask a local person for directions.",
+        "definition":  "relating to a particular area",
+        "partOfSpeech":  "adjective",
+        "phonetic":  "/ˈləʊkl/"
+    },
+    {
+        "word":  "international",
+        "difficultyLevel":  "B1",
+        "translation":  "международный",
+        "exampleSentence":  "She works for an international company.",
+        "definition":  "involving more than one country",
+        "partOfSpeech":  "adjective",
+        "phonetic":  "/ˌɪntəˈnæʃənl/"
+    },
+    {
+        "word":  "environment",
+        "difficultyLevel":  "B1",
+        "translation":  "окружающая среда",
+        "exampleSentence":  "We must protect the environment.",
+        "definition":  "the natural world around us",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ɪnˈvaɪrənmənt/"
+    },
+    {
+        "word":  "culture",
+        "difficultyLevel":  "B1",
+        "translation":  "культура",
+        "exampleSentence":  "Travel helps you learn about culture.",
+        "definition":  "the customs and arts of a society",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈkʌltʃə/"
+    },
+    {
+        "word":  "language",
+        "difficultyLevel":  "A2",
+        "translation":  "язык",
+        "exampleSentence":  "English is a global language.",
+        "definition":  "a system of communication used by people",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈlæŋɡwɪdʒ/"
+    },
+    {
+        "word":  "conversation",
+        "difficultyLevel":  "B1",
+        "translation":  "разговор",
+        "exampleSentence":  "We had a long conversation.",
+        "definition":  "an informal talk between people",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˌkɒnvəˈseɪʃən/"
+    },
+    {
+        "word":  "vocabulary",
+        "difficultyLevel":  "B1",
+        "translation":  "словарный запас",
+        "exampleSentence":  "Reading improves your vocabulary.",
+        "definition":  "the words known and used by a person",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/vəˈkæbjələri/"
+    },
+    {
+        "word":  "grammar",
+        "difficultyLevel":  "B1",
+        "translation":  "грамматика",
+        "exampleSentence":  "Grammar helps you write correctly.",
+        "definition":  "the rules for forming words and sentences",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈɡræmə/"
+    },
+    {
+        "word":  "sentence",
+        "difficultyLevel":  "A2",
+        "translation":  "предложение",
+        "exampleSentence":  "Write a short sentence.",
+        "definition":  "a group of words that expresses a complete thought",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈsentəns/"
+    },
+    {
+        "word":  "meaning",
+        "difficultyLevel":  "A2",
+        "translation":  "значение",
+        "exampleSentence":  "What is the meaning of this word?",
+        "definition":  "what a word or phrase expresses",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈmiːnɪŋ/"
+    },
+    {
+        "word":  "example",
+        "difficultyLevel":  "A2",
+        "translation":  "пример",
+        "exampleSentence":  "Give me an example, please.",
+        "definition":  "something that shows what others are like",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ɪɡˈzɑːmpl/"
+    },
+    {
+        "word":  "question",
+        "difficultyLevel":  "A1",
+        "translation":  "вопрос",
+        "exampleSentence":  "Do you have any questions?",
+        "definition":  "a sentence that asks for information",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈkwestʃən/"
+    },
+    {
+        "word":  "idea",
+        "difficultyLevel":  "A2",
+        "translation":  "идея",
+        "exampleSentence":  "That is a brilliant idea.",
+        "definition":  "a thought or suggestion",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/aɪˈdɪə/"
+    },
+    {
+        "word":  "goal",
+        "difficultyLevel":  "B1",
+        "translation":  "цель",
+        "exampleSentence":  "My goal is to speak fluently.",
+        "definition":  "something you hope to achieve",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ɡəʊl/"
+    },
+    {
+        "word":  "habit",
+        "difficultyLevel":  "B1",
+        "translation":  "привычка",
+        "exampleSentence":  "Reading is a good habit.",
+        "definition":  "something you do regularly",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈhæbɪt/"
+    },
+    {
+        "word":  "routine",
+        "difficultyLevel":  "B1",
+        "translation":  "распорядок",
+        "exampleSentence":  "Exercise is part of my routine.",
+        "definition":  "a usual sequence of actions",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ruːˈtiːn/"
+    },
+    {
+        "word":  "hobby",
+        "difficultyLevel":  "A2",
+        "translation":  "хобби",
+        "exampleSentence":  "Photography is my hobby.",
+        "definition":  "an activity done for pleasure in free time",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈhɒbi/"
+    },
+    {
+        "word":  "music",
+        "difficultyLevel":  "A1",
+        "translation":  "музыка",
+        "exampleSentence":  "I listen to music every day.",
+        "definition":  "sounds arranged to create melody and rhythm",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈmjuːzɪk/"
+    },
+    {
+        "word":  "movie",
+        "difficultyLevel":  "A1",
+        "translation":  "фильм",
+        "exampleSentence":  "We watched a movie last night.",
+        "definition":  "a story recorded as moving images",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈmuːvi/"
+    },
+    {
+        "word":  "sport",
+        "difficultyLevel":  "A1",
+        "translation":  "спорт",
+        "exampleSentence":  "Football is a popular sport.",
+        "definition":  "physical activity done for exercise or competition",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/spɔːt/"
+    },
+    {
+        "word":  "health",
+        "difficultyLevel":  "A2",
+        "translation":  "здоровье",
+        "exampleSentence":  "Sleep is important for health.",
+        "definition":  "the condition of being well",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/helθ/"
+    },
+    {
+        "word":  "medicine",
+        "difficultyLevel":  "A2",
+        "translation":  "лекарство",
+        "exampleSentence":  "Take this medicine twice a day.",
+        "definition":  "a substance used to treat illness",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈmedsn/"
+    },
+    {
+        "word":  "doctor",
+        "difficultyLevel":  "A1",
+        "translation":  "врач",
+        "exampleSentence":  "I have an appointment with the doctor.",
+        "definition":  "a person trained to treat sick people",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈdɒktə/"
+    },
+    {
+        "word":  "hospital",
+        "difficultyLevel":  "A2",
+        "translation":  "больница",
+        "exampleSentence":  "He works at the hospital.",
+        "definition":  "a place where sick people are treated",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈhɒspɪtl/"
+    },
+    {
+        "word":  "shop",
+        "difficultyLevel":  "A1",
+        "translation":  "магазин",
+        "exampleSentence":  "There is a shop near my house.",
+        "definition":  "a place where goods are sold",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ʃɒp/"
+    },
+    {
+        "word":  "clothes",
+        "difficultyLevel":  "A1",
+        "translation":  "одежда",
+        "exampleSentence":  "I need to buy new clothes.",
+        "definition":  "things worn on the body",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/kləʊðz/"
+    },
+    {
+        "word":  "shoes",
+        "difficultyLevel":  "A1",
+        "translation":  "обувь",
+        "exampleSentence":  "These shoes are too tight.",
+        "definition":  "coverings for the feet",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ʃuːz/"
+    },
+    {
+        "word":  "bag",
+        "difficultyLevel":  "A1",
+        "translation":  "сумка",
+        "exampleSentence":  "Put the books in your bag.",
+        "definition":  "a container used for carrying things",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/bæɡ/"
+    },
+    {
+        "word":  "key",
+        "difficultyLevel":  "A1",
+        "translation":  "ключ",
+        "exampleSentence":  "I lost my house key.",
+        "definition":  "a metal object used to open a lock",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/kiː/"
+    },
+    {
+        "word":  "door",
+        "difficultyLevel":  "A1",
+        "translation":  "дверь",
+        "exampleSentence":  "Please close the door.",
+        "definition":  "a movable barrier at an entrance",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/dɔː/"
+    },
+    {
+        "word":  "window",
+        "difficultyLevel":  "A1",
+        "translation":  "окно",
+        "exampleSentence":  "Open the window for fresh air.",
+        "definition":  "an opening in a wall that lets in light",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈwɪndəʊ/"
+    },
+    {
+        "word":  "room",
+        "difficultyLevel":  "A1",
+        "translation":  "комната",
+        "exampleSentence":  "This room is bright and quiet.",
+        "definition":  "a part of a building enclosed by walls",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ruːm/"
+    },
+    {
+        "word":  "kitchen",
+        "difficultyLevel":  "A1",
+        "translation":  "кухня",
+        "exampleSentence":  "She is cooking in the kitchen.",
+        "definition":  "a room where food is prepared",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈkɪtʃən/"
+    },
+    {
+        "word":  "bathroom",
+        "difficultyLevel":  "A1",
+        "translation":  "ванная",
+        "exampleSentence":  "The bathroom is upstairs.",
+        "definition":  "a room with a bath or shower",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈbɑːθruːm/"
+    },
+    {
+        "word":  "garden",
+        "difficultyLevel":  "A1",
+        "translation":  "сад",
+        "exampleSentence":  "There are flowers in the garden.",
+        "definition":  "an area of ground for growing plants",
+        "partOfSpeech":  "noun",
+        "phonetic":  "/ˈɡɑːdn/"
+    },
+    {
+        "word":  "i",
+        "translation":  "я",
+        "definition":  "the person who is speaking or writing",
+        "partOfSpeech":  "pronoun",
+        "phonetic":  "/aɪ/",
+        "exampleSentence":  "I am a student.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "you",
+        "translation":  "ты / вы",
+        "definition":  "the person or people being addressed",
+        "partOfSpeech":  "pronoun",
+        "phonetic":  "/juː/",
+        "exampleSentence":  "You are my friend.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "he",
+        "translation":  "он",
+        "definition":  "a male person or animal previously mentioned",
+        "partOfSpeech":  "pronoun",
+        "phonetic":  "/hiː/",
+        "exampleSentence":  "He likes coffee.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "she",
+        "translation":  "она",
+        "definition":  "a female person or animal previously mentioned",
+        "partOfSpeech":  "pronoun",
+        "phonetic":  "/ʃiː/",
+        "exampleSentence":  "She works here.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "it",
+        "translation":  "оно / это",
+        "definition":  "used to refer to a thing or animal",
+        "partOfSpeech":  "pronoun",
+        "phonetic":  "/ɪt/",
+        "exampleSentence":  "It is raining.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "we",
+        "translation":  "мы",
+        "definition":  "the speaker and at least one other person",
+        "partOfSpeech":  "pronoun",
+        "phonetic":  "/wiː/",
+        "exampleSentence":  "We go to school.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "they",
+        "translation":  "они",
+        "definition":  "people or things previously mentioned",
+        "partOfSpeech":  "pronoun",
+        "phonetic":  "/ðeɪ/",
+        "exampleSentence":  "They live nearby.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "me",
+        "translation":  "мне / меня",
+        "definition":  "the objective form of I",
+        "partOfSpeech":  "pronoun",
+        "phonetic":  "/miː/",
+        "exampleSentence":  "Please help me.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "him",
+        "translation":  "ему / его",
+        "definition":  "the objective form of he",
+        "partOfSpeech":  "pronoun",
+        "phonetic":  "/hɪm/",
+        "exampleSentence":  "I see him.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "her",
+        "translation":  "ей / её",
+        "definition":  "the objective form of she",
+        "partOfSpeech":  "pronoun",
+        "phonetic":  "/hɜː/",
+        "exampleSentence":  "I know her.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "us",
+        "translation":  "нам / нас",
+        "definition":  "the objective form of we",
+        "partOfSpeech":  "pronoun",
+        "phonetic":  "/ʌs/",
+        "exampleSentence":  "Come with us.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "them",
+        "translation":  "им / их",
+        "definition":  "the objective form of they",
+        "partOfSpeech":  "pronoun",
+        "phonetic":  "/ðəm/",
+        "exampleSentence":  "I like them.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "my",
+        "translation":  "мой",
+        "definition":  "belonging to me",
+        "partOfSpeech":  "determiner",
+        "phonetic":  "/maɪ/",
+        "exampleSentence":  "This is my book.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "your",
+        "translation":  "твой / ваш",
+        "definition":  "belonging to you",
+        "partOfSpeech":  "determiner",
+        "phonetic":  "/jɔː/",
+        "exampleSentence":  "Is this your bag?",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "his",
+        "translation":  "его",
+        "definition":  "belonging to him",
+        "partOfSpeech":  "determiner",
+        "phonetic":  "/hɪz/",
+        "exampleSentence":  "His name is Tom.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "our",
+        "translation":  "наш",
+        "definition":  "belonging to us",
+        "partOfSpeech":  "determiner",
+        "phonetic":  "/ˈaʊə/",
+        "exampleSentence":  "Our house is big.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "their",
+        "translation":  "их",
+        "definition":  "belonging to them",
+        "partOfSpeech":  "determiner",
+        "phonetic":  "/ðeə/",
+        "exampleSentence":  "Their car is new.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "a",
+        "translation":  "неопределённый артикль",
+        "definition":  "used before a singular noun when it is not specific",
+        "partOfSpeech":  "article",
+        "phonetic":  "/ə/",
+        "exampleSentence":  "I need a pen.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "an",
+        "translation":  "неопределённый артикль",
+        "definition":  "used before a vowel sound instead of a",
+        "partOfSpeech":  "article",
+        "phonetic":  "/ən/",
+        "exampleSentence":  "She ate an apple.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "the",
+        "translation":  "определённый артикль",
+        "definition":  "used to refer to a specific noun",
+        "partOfSpeech":  "article",
+        "phonetic":  "/ðə/",
+        "exampleSentence":  "The sun is bright.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "be",
+        "translation":  "быть",
+        "definition":  "to exist or to have a quality",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/biː/",
+        "exampleSentence":  "I want to be happy.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "am",
+        "translation":  "есть (я)",
+        "definition":  "first person singular of be",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/æm/",
+        "exampleSentence":  "I am ready.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "is",
+        "translation":  "есть (он/она/оно)",
+        "definition":  "third person singular of be",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/ɪz/",
+        "exampleSentence":  "She is kind.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "are",
+        "translation":  "есть (вы/мы/они)",
+        "definition":  "plural and second person of be",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/ɑː/",
+        "exampleSentence":  "You are welcome.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "was",
+        "translation":  "был / была",
+        "definition":  "past tense singular of be",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/wɒz/",
+        "exampleSentence":  "He was tired.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "were",
+        "translation":  "были",
+        "definition":  "past tense plural of be",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/wɜː/",
+        "exampleSentence":  "They were happy.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "to",
+        "translation":  "к / частица инфинитива",
+        "definition":  "used before a verb or to show direction",
+        "partOfSpeech":  "preposition",
+        "phonetic":  "/tuː/",
+        "exampleSentence":  "I want to go.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "of",
+        "translation":  "из / о",
+        "definition":  "belonging to or relating to",
+        "partOfSpeech":  "preposition",
+        "phonetic":  "/ɒv/",
+        "exampleSentence":  "A cup of tea.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "in",
+        "translation":  "в",
+        "definition":  "inside or during",
+        "partOfSpeech":  "preposition",
+        "phonetic":  "/ɪn/",
+        "exampleSentence":  "She is in the room.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "on",
+        "translation":  "на",
+        "definition":  "supported by or about a topic",
+        "partOfSpeech":  "preposition",
+        "phonetic":  "/ɒn/",
+        "exampleSentence":  "The book is on the table.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "at",
+        "translation":  "у / в",
+        "definition":  "used to show place or time",
+        "partOfSpeech":  "preposition",
+        "phonetic":  "/æt/",
+        "exampleSentence":  "Meet me at school.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "for",
+        "translation":  "для",
+        "definition":  "intended to belong to or used by",
+        "partOfSpeech":  "preposition",
+        "phonetic":  "/fɔː/",
+        "exampleSentence":  "This gift is for you.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "with",
+        "translation":  "с",
+        "definition":  "accompanied by",
+        "partOfSpeech":  "preposition",
+        "phonetic":  "/wɪð/",
+        "exampleSentence":  "I walk with my friend.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "from",
+        "translation":  "из / от",
+        "definition":  "indicating the source or starting point",
+        "partOfSpeech":  "preposition",
+        "phonetic":  "/frɒm/",
+        "exampleSentence":  "I am from Russia.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "and",
+        "translation":  "и",
+        "definition":  "used to connect words or clauses",
+        "partOfSpeech":  "conjunction",
+        "phonetic":  "/ænd/",
+        "exampleSentence":  "Tea and coffee.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "or",
+        "translation":  "или",
+        "definition":  "used to link alternatives",
+        "partOfSpeech":  "conjunction",
+        "phonetic":  "/ɔː/",
+        "exampleSentence":  "Tea or coffee?",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "but",
+        "translation":  "но",
+        "definition":  "used to introduce a contrast",
+        "partOfSpeech":  "conjunction",
+        "phonetic":  "/bʌt/",
+        "exampleSentence":  "I am tired but happy.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "if",
+        "translation":  "если",
+        "definition":  "on the condition that",
+        "partOfSpeech":  "conjunction",
+        "phonetic":  "/ɪf/",
+        "exampleSentence":  "Call me if you need help.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "because",
+        "translation":  "потому что",
+        "definition":  "for the reason that",
+        "partOfSpeech":  "conjunction",
+        "phonetic":  "/bɪˈkɒz/",
+        "exampleSentence":  "I stay home because it rains.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "this",
+        "translation":  "это / этот",
+        "definition":  "used to identify a nearby person or thing",
+        "partOfSpeech":  "determiner",
+        "phonetic":  "/ðɪs/",
+        "exampleSentence":  "This is my bag.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "that",
+        "translation":  "тот / что",
+        "definition":  "used to identify a specific person or thing",
+        "partOfSpeech":  "determiner",
+        "phonetic":  "/ðæt/",
+        "exampleSentence":  "That book is interesting.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "these",
+        "translation":  "эти",
+        "definition":  "plural of this",
+        "partOfSpeech":  "determiner",
+        "phonetic":  "/ðiːz/",
+        "exampleSentence":  "These apples are fresh.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "those",
+        "translation":  "те",
+        "definition":  "plural of that",
+        "partOfSpeech":  "determiner",
+        "phonetic":  "/ðəʊz/",
+        "exampleSentence":  "Those cars are fast.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "there",
+        "translation":  "там",
+        "definition":  "in or at that place",
+        "partOfSpeech":  "adverb",
+        "phonetic":  "/ðeə/",
+        "exampleSentence":  "The shop is over there.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "here",
+        "translation":  "здесь",
+        "definition":  "in or at this place",
+        "partOfSpeech":  "adverb",
+        "phonetic":  "/hɪə/",
+        "exampleSentence":  "Come here please.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "not",
+        "translation":  "не",
+        "definition":  "used to make a word or statement negative",
+        "partOfSpeech":  "adverb",
+        "phonetic":  "/nɒt/",
+        "exampleSentence":  "I am not hungry.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "very",
+        "translation":  "очень",
+        "definition":  "to a high degree",
+        "partOfSpeech":  "adverb",
+        "phonetic":  "/ˈveri/",
+        "exampleSentence":  "It is very cold.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "can",
+        "translation":  "мочь",
+        "definition":  "to be able to",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/kæn/",
+        "exampleSentence":  "I can swim.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "will",
+        "translation":  "буду",
+        "definition":  "used to talk about the future",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/wɪl/",
+        "exampleSentence":  "I will call you.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "would",
+        "translation":  "бы",
+        "definition":  "used for polite requests or hypothetical situations",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/wʊd/",
+        "exampleSentence":  "Would you like tea?",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "could",
+        "translation":  "мог бы",
+        "definition":  "past ability or polite possibility",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/kʊd/",
+        "exampleSentence":  "Could you help me?",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "should",
+        "translation":  "следует",
+        "definition":  "used to give advice",
+        "partOfSpeech":  "verb",
+        "phonetic":  "/ʃʊd/",
+        "exampleSentence":  "You should rest.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "what",
+        "translation":  "что",
+        "definition":  "asking for information",
+        "partOfSpeech":  "pronoun",
+        "phonetic":  "/wɒt/",
+        "exampleSentence":  "What is your name?",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "who",
+        "translation":  "кто",
+        "definition":  "asking about a person",
+        "partOfSpeech":  "pronoun",
+        "phonetic":  "/huː/",
+        "exampleSentence":  "Who is that?",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "where",
+        "translation":  "где",
+        "definition":  "asking about a place",
+        "partOfSpeech":  "adverb",
+        "phonetic":  "/weə/",
+        "exampleSentence":  "Where do you live?",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "when",
+        "translation":  "когда",
+        "definition":  "asking about time",
+        "partOfSpeech":  "adverb",
+        "phonetic":  "/wen/",
+        "exampleSentence":  "When do we start?",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "how",
+        "translation":  "как",
+        "definition":  "asking about manner or condition",
+        "partOfSpeech":  "adverb",
+        "phonetic":  "/haʊ/",
+        "exampleSentence":  "How are you?",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "why",
+        "translation":  "почему",
+        "definition":  "asking for a reason",
+        "partOfSpeech":  "adverb",
+        "phonetic":  "/waɪ/",
+        "exampleSentence":  "Why are you late?",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "so",
+        "translation":  "так / поэтому",
+        "definition":  "to such a great extent; therefore",
+        "partOfSpeech":  "adverb",
+        "phonetic":  "/səʊ/",
+        "exampleSentence":  "I was tired so I slept.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "as",
+        "translation":  "как / в качестве",
+        "definition":  "used to compare or show role",
+        "partOfSpeech":  "preposition",
+        "phonetic":  "/æz/",
+        "exampleSentence":  "She works as a teacher.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "about",
+        "translation":  "о / около",
+        "definition":  "on the subject of",
+        "partOfSpeech":  "preposition",
+        "phonetic":  "/əˈbaʊt/",
+        "exampleSentence":  "We talk about music.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "into",
+        "translation":  "в (внутрь)",
+        "definition":  "to the inside of",
+        "partOfSpeech":  "preposition",
+        "phonetic":  "/ˈɪntuː/",
+        "exampleSentence":  "He walked into the room.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "by",
+        "translation":  "около / посредством",
+        "definition":  "near or by means of",
+        "partOfSpeech":  "preposition",
+        "phonetic":  "/baɪ/",
+        "exampleSentence":  "The book is by the window.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "up",
+        "translation":  "вверх",
+        "definition":  "towards a higher place",
+        "partOfSpeech":  "adverb",
+        "phonetic":  "/ʌp/",
+        "exampleSentence":  "Wake up early.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "down",
+        "translation":  "вниз",
+        "definition":  "towards a lower place",
+        "partOfSpeech":  "adverb",
+        "phonetic":  "/daʊn/",
+        "exampleSentence":  "Sit down please.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "out",
+        "translation":  "наружу",
+        "definition":  "away from the inside",
+        "partOfSpeech":  "adverb",
+        "phonetic":  "/aʊt/",
+        "exampleSentence":  "Let us go out.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "now",
+        "translation":  "сейчас",
+        "definition":  "at the present time",
+        "partOfSpeech":  "adverb",
+        "phonetic":  "/naʊ/",
+        "exampleSentence":  "I need help now.",
+        "difficultyLevel":  "A1"
+    },
+    {
+        "word":  "then",
+        "translation":  "тогда",
+        "definition":  "at that time",
+        "partOfSpeech":  "adverb",
+        "phonetic":  "/ðen/",
+        "exampleSentence":  "We ate and then walked.",
+        "difficultyLevel":  "A1"
+    }
+]

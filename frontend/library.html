@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LexiFlow — Library</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,650&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            skyglass: { 50: '#f0f9ff', 100: '#e0f2fe', 200: '#bae6fd' },
+            mintglass: { 50: '#f0fdfa', 100: '#ccfbf1', 200: '#99f6e4' },
+            ink: '#0f2942',
+          },
+          fontFamily: {
+            sans: ['"DM Sans"', 'system-ui', 'sans-serif'],
+            display: ['Fraunces', 'Georgia', 'serif'],
+          },
+        },
+      },
+    };
+  </script>
+  <link rel="stylesheet" href="css/app.css" />
+</head>
+<body>
+  <div id="app-root" class="page-shell">
+    <div id="app-nav"></div>
+    <main class="page-main max-w-5xl mx-auto px-4 sm:px-6 pt-6 sm:pt-10">
+      <header class="mb-6 fade-up">
+        <div class="flex flex-wrap items-end justify-between gap-3">
+          <div>
+            <p class="text-sm font-semibold text-[var(--teal-600)]">Library</p>
+            <h1 class="font-display text-3xl font-semibold">Word library</h1>
+            <p class="text-muted text-sm mt-1">Browse the global dictionary and add words to your vocabulary.</p>
+          </div>
+          <p id="library-count" class="text-sm text-muted" aria-live="polite"></p>
+        </div>
+      </header>
+
+      <section class="mb-5 fade-up">
+        <label class="input-label" for="library-search">Search words</label>
+        <input
+          id="library-search"
+          type="search"
+          class="input-field"
+          placeholder="Search by word text…"
+          autocomplete="off"
+        />
+      </section>
+
+      <div id="library-list" aria-live="polite"></div>
+    </main>
+    <div id="bottom-nav"></div>
+  </div>
+  <div id="toast-host" class="toast-host" aria-live="polite"></div>
+  <script type="module" src="js/pages/library.js"></script>
+</body>
+</html>

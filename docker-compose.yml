@@ -1,0 +1,47 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: englishlearning-db
+    environment:
+      POSTGRES_DB: english_learning
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d english_learning"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: englishlearning-api
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      ASPNETCORE_URLS: http://+:8080
+      DISABLE_HTTPS_REDIRECTION: "true"
+      ConnectionStrings__DefaultConnection: Host=postgres;Port=5432;Database=english_learning;Username=postgres;Password=postgres
+      Jwt__Key: DOCKER_DEV_CHANGE_ME_TO_A_LONG_SECRET_KEY_AT_LEAST_32_CHARS
+      Jwt__SecretKey: DOCKER_DEV_CHANGE_ME_TO_A_LONG_SECRET_KEY_AT_LEAST_32_CHARS
+      Jwt__Issuer: EnglishLearning
+      Jwt__Audience: EnglishLearning
+      Jwt__ExpireMinutes: "10080"
+      OpenAI__ApiKey: ${OPENAI_API_KEY:-}
+      OpenAI__Model: ${OPENAI_MODEL:-gpt-4o-mini}
+      Practice__MaxVocabularyWords: "2000"
+      Practice__MaxGenerationRetries: "3"
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./data:/app/data:ro
+
+volumes:
+  postgres_data:
