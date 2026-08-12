@@ -1,10 +1,12 @@
 /* LexiFlow — clear blue glassmorphism + Material typography */
 
 :root {
-  --ink: #0b1f33;
-  --ink-strong: #061525;
-  --ink-muted: rgba(15, 45, 75, 0.68);
-  --ink-soft: rgba(15, 45, 75, 0.48);
+  --ink: #0a2744;
+  --ink-strong: #04182c;
+  --ink-muted: rgba(8, 42, 78, 0.78);
+  --ink-soft: rgba(8, 42, 78, 0.55);
+  --text-glass-glow: 0 1px 0 rgba(255, 255, 255, 0.55), 0 0 18px rgba(255, 255, 255, 0.22);
+  --text-glass-soft: 0 1px 0 rgba(255, 255, 255, 0.4);
 
   --blue-50: #eef7ff;
   --blue-100: #d9ecff;
@@ -37,8 +39,8 @@
   --radius-2xl: 1.75rem;
   --nav-h: 4.25rem;
   --bottom-nav-h: 4.5rem;
-  --font-sans: "Roboto", "Helvetica Neue", Arial, sans-serif;
-  --font-display: "Roboto", "Helvetica Neue", Arial, sans-serif;
+  --font-sans: "Nunito Sans", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  --font-display: "Nunito Sans", "Roboto", "Helvetica Neue", Arial, sans-serif;
 
   --teal-400: #29b6f6;
   --teal-500: #1e88e5;
@@ -63,9 +65,11 @@ body {
   margin: 0;
   min-height: 100dvh;
   font-family: var(--font-sans);
-  font-weight: 400;
-  letter-spacing: 0.015em;
+  font-weight: 500;
+  letter-spacing: 0.01em;
   color: var(--ink);
+  text-shadow: var(--text-glass-soft);
+  font-optical-sizing: auto;
   background:
     radial-gradient(ellipse 90% 70% at 8% 0%, rgba(179, 229, 252, 0.85) 0%, transparent 55%),
     radial-gradient(ellipse 80% 60% at 100% 10%, rgba(144, 202, 249, 0.7) 0%, transparent 50%),
@@ -103,8 +107,47 @@ body::after {
 
 .font-display {
   font-family: var(--font-display);
-  font-weight: 500;
-  letter-spacing: 0.01em;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  text-shadow: var(--text-glass-glow);
+}
+
+/* Soft Material-like type on glass surfaces */
+.glass-panel,
+.glass,
+.glass-strong,
+.auth-card,
+.modal-panel,
+.flip-face {
+  color: var(--ink);
+  text-shadow: var(--text-glass-soft);
+}
+
+.glass-panel h1,
+.glass-panel h2,
+.glass-panel h3,
+.glass h1,
+.glass h2,
+.glass h3,
+.auth-card h1,
+.brand-mark,
+.stat-card .font-display,
+.page-main h1,
+.page-main h2 {
+  color: var(--ink-strong);
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  text-shadow: var(--text-glass-glow);
+}
+
+.glass-panel p,
+.glass-panel span,
+.glass-panel label,
+.glass-panel dt,
+.glass-panel dd,
+.word-card,
+.stat-card {
+  text-shadow: var(--text-glass-soft);
 }
 
 /* ——— Clear glass (visible, not rough) ——— */
@@ -237,9 +280,10 @@ body::after {
   justify-content: center;
   gap: 0.5rem;
   font-family: var(--font-sans);
-  font-weight: 500;
-  letter-spacing: 0.04em;
+  font-weight: 700;
+  letter-spacing: 0.02em;
   border-radius: 1.5rem;
+  text-shadow: none;
   transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease, opacity 0.18s ease, filter 0.18s ease;
   cursor: pointer;
   border: none;
@@ -349,8 +393,9 @@ body::after {
   width: 100%;
   font-family: var(--font-sans);
   font-size: 1rem;
-  font-weight: 400;
-  color: var(--ink);
+  font-weight: 600;
+  color: var(--ink-strong);
+  text-shadow: var(--text-glass-soft);
   background: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
@@ -383,11 +428,12 @@ body::after {
 .input-label {
   display: block;
   font-size: 0.8125rem;
-  font-weight: 500;
-  letter-spacing: 0.04em;
+  font-weight: 700;
+  letter-spacing: 0.03em;
   color: var(--ink-muted);
   margin-bottom: 0.4rem;
   text-transform: uppercase;
+  text-shadow: var(--text-glass-soft);
 }
 
 /* ——— Cards ——— */
@@ -550,13 +596,14 @@ body::after {
   justify-content: center;
   gap: 0.15rem;
   flex: 1;
-  font-size: 0.65rem;
-  font-weight: 500;
-  letter-spacing: 0.03em;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
   color: var(--ink-muted);
   text-decoration: none;
   transition: color 0.18s ease, transform 0.18s ease, background 0.18s ease;
   padding: 0.35rem;
+  text-shadow: var(--text-glass-soft);
 }
 
 .nav-link svg {
@@ -835,9 +882,10 @@ body::after {
 
 .brand-mark {
   font-family: var(--font-display);
-  font-weight: 500;
-  letter-spacing: 0.02em;
+  font-weight: 800;
+  letter-spacing: -0.02em;
   color: var(--blue-700);
+  text-shadow: var(--text-glass-glow);
 }
 
 /* ——— Empty ——— */
@@ -943,6 +991,8 @@ body::after {
 /* ——— Misc ——— */
 .text-muted {
   color: var(--ink-muted);
+  font-weight: 600;
+  text-shadow: var(--text-glass-soft);
 }
 
 .page-shell,
