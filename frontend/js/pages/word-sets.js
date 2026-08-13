@@ -1,5 +1,6 @@
 import { guardRoute } from '../core/router-guard.js';
 import { mountNav } from '../components/nav.js';
+import { mountAppShell } from '../components/shell.js';
 import { wordSetsApi } from '../api/wordSetsApi.js';
 import { $, el, setChildren } from '../utils/dom.js';
 import { toast } from '../components/toast.js';
@@ -10,6 +11,7 @@ import { formatDate } from '../utils/format.js';
 if (!guardRoute()) {
   /* redirected */
 } else {
+  mountAppShell();
   mountNav();
   initWordSets();
 }
@@ -67,7 +69,7 @@ function renderSetCard(set) {
     'a',
     {
       href: `word-set.html?id=${encodeURIComponent(id)}`,
-      className: 'word-card glass-panel p-5 block no-underline text-[var(--ink)] fade-up',
+      className: 'word-card glass-panel tilt-card p-5 block no-underline text-[var(--ink)] fade-up',
       'aria-label': `Open set ${name}`,
     },
     [

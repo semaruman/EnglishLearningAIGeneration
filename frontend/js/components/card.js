@@ -22,7 +22,7 @@ export function card({ title, subtitle, children, className = '', onClick } = {}
     onClick ? 'button' : 'div',
     {
       type: onClick ? 'button' : undefined,
-      className: `glass-panel p-5 ${onClick ? 'text-left w-full cursor-pointer' : ''} ${className}`.trim(),
+      className: `glass-panel tilt-card p-5 ${onClick ? 'text-left w-full cursor-pointer' : ''} ${className}`.trim(),
       onClick,
     },
     [header, body],

@@ -1,5 +1,6 @@
-ï»¿import { guardRoute } from '../core/router-guard.js';
+import { guardRoute } from '../core/router-guard.js';
 import { mountNav } from '../components/nav.js';
+import { mountAppShell } from '../components/shell.js';
 import { authService } from '../services/authService.js';
 import { appState } from '../core/appState.js';
 import { $, el, setChildren } from '../utils/dom.js';
@@ -10,13 +11,14 @@ import { button } from '../components/button.js';
 if (!guardRoute()) {
   /* redirected */
 } else {
+  mountAppShell();
   mountNav();
   initProfile();
 }
 
 async function initProfile() {
   const root = $('#profile-root');
-  setChildren(root, [loadingSpinner({ label: 'Loading profileâ€¦' })]);
+  setChildren(root, [loadingSpinner({ label: 'Loading profile…' })]);
 
   let user = appState.getUser();
   try {
@@ -39,16 +41,17 @@ async function initProfile() {
   setChildren(root, [
     el('div', { className: 'max-w-lg mx-auto fade-up' }, [
       el('header', { className: 'mb-6' }, [
-        el('p', { className: 'text-sm font-semibold text-[var(--teal-600)]', text: 'Profile' }),
+        el('p', { className: 'section-eyebrow', text: 'Profile' }),
         el('h1', { className: 'font-display text-3xl font-semibold', text: 'Your account' }),
       ]),
-      el('section', { className: 'glass-panel p-6 sm:p-8' }, [
+      el('section', { className: 'glass-panel tilt-card p-6 sm:p-8' }, [
         el('div', { className: 'flex items-center gap-4 mb-6' }, [
           el('div', {
             className:
               'w-16 h-16 rounded-2xl flex items-center justify-center font-display text-2xl font-semibold text-white',
             style: {
-              background: 'linear-gradient(135deg, #2dd4bf, #0ea5a0)',
+              background: 'linear-gradient(135deg, #5ba3ff, #4ecdc9)',
+              boxShadow: '0 12px 32px rgba(91, 163, 255, 0.28)',
             },
             'aria-hidden': 'true',
             text: initial,
@@ -62,9 +65,9 @@ async function initProfile() {
           ]),
         ]),
         el('dl', { className: 'space-y-3 text-sm mb-8' }, [
-          row('Username', user.userName || 'â€”'),
-          row('Email', user.email || 'â€”'),
-          row('User ID', user.userId || 'â€”'),
+          row('Username', user.userName || '—'),
+          row('Email', user.email || '—'),
+          row('User ID', user.userId || '—'),
         ]),
         button({
           label: 'Log out',

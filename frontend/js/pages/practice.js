@@ -1,5 +1,6 @@
 import { guardRoute } from '../core/router-guard.js';
 import { mountNav } from '../components/nav.js';
+import { mountAppShell } from '../components/shell.js';
 import { practiceApi } from '../api/practiceApi.js';
 import { wordsApi } from '../api/wordsApi.js';
 import { vocabularyApi } from '../api/vocabularyApi.js';
@@ -14,6 +15,7 @@ import { formatDateTime } from '../utils/format.js';
 if (!guardRoute()) {
   /* redirected */
 } else {
+  mountAppShell();
   mountNav();
   initPractice();
 }

@@ -69,7 +69,7 @@ function linkNode(item, { mobile = false } = {}) {
 }
 
 /**
- * Mount desktop top nav + mobile bottom nav into #app-nav and #bottom-nav.
+ * Mount floating glass desktop nav + mobile bottom nav.
  */
 export function mountNav() {
   const topHost = document.getElementById('app-nav');
@@ -78,40 +78,34 @@ export function mountNav() {
   if (topHost) {
     const brand = el('a', {
       href: 'index.html',
-      className: 'brand-mark text-base sm:text-lg lg:text-xl text-[var(--ink)] no-underline shrink-0 max-w-[11rem] sm:max-w-none leading-tight',
+      className: 'brand-mark text-sm sm:text-base no-underline shrink-0 max-w-[10rem] sm:max-w-none leading-tight',
       'aria-label': 'AI English Learning home',
       text: 'AI English Learning',
     });
 
     const links = el(
       'nav',
-      { className: 'flex items-center gap-0.5 overflow-x-auto', 'aria-label': 'Main' },
+      { className: 'flex items-center gap-0.5 overflow-x-auto scrollbar-none', 'aria-label': 'Main' },
       NAV_ITEMS.map((item) => linkNode(item)),
     );
 
-    setChildren(
-      topHost,
-      [
-        el('div', {
-          className: 'desktop-nav glass-nav w-full items-center justify-between px-6 lg:px-10',
-        }, [brand, links]),
-      ],
-    );
+    setChildren(topHost, [
+      el('div', {
+        className: 'desktop-nav glass-nav',
+      }, [brand, links]),
+    ]);
   }
 
   if (bottomHost) {
-    setChildren(
-      bottomHost,
-      [
-        el(
-          'nav',
-          {
-            className: 'mobile-bottom-nav glass-bottom-nav items-stretch justify-around px-1',
-            'aria-label': 'Mobile main',
-          },
-          NAV_ITEMS.map((item) => linkNode(item, { mobile: true })),
-        ),
-      ],
-    );
+    setChildren(bottomHost, [
+      el(
+        'nav',
+        {
+          className: 'mobile-bottom-nav glass-bottom-nav',
+          'aria-label': 'Mobile main',
+        },
+        NAV_ITEMS.map((item) => linkNode(item, { mobile: true })),
+      ),
+    ]);
   }
 }

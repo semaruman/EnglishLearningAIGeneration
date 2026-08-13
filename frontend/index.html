@@ -1,25 +1,25 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#060912" />
   <title>AI English Learning — Dashboard</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;1,6..12,400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
       theme: {
         extend: {
           colors: {
-            skyglass: { 50: '#f0f9ff', 100: '#e0f2fe', 200: '#bae6fd' },
-            mintglass: { 50: '#f0fdfa', 100: '#ccfbf1', 200: '#99f6e4' },
-            ink: '#0b1f33',
+            ink: '#f4f7fc',
+            accent: '#5ba3ff',
           },
           fontFamily: {
-            sans: ['Nunito Sans', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif'],
-            display: ['Nunito Sans', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif'],
+            sans: ['Inter', 'SF Pro Display', 'Segoe UI', 'system-ui', 'sans-serif'],
+            display: ['Inter', 'SF Pro Display', 'Segoe UI', 'system-ui', 'sans-serif'],
           },
         },
       },
@@ -30,7 +30,7 @@
 <body>
   <div id="app-root" class="page-shell">
     <div id="app-nav"></div>
-    <main class="page-main max-w-5xl mx-auto px-4 sm:px-6 pt-6 sm:pt-10">
+    <main class="page-main mx-auto px-4 sm:px-6 pt-4 sm:pt-8">
       <div id="dashboard-root" aria-live="polite"></div>
     </main>
     <div id="bottom-nav"></div>

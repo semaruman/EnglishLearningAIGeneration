@@ -1,5 +1,6 @@
 import { guardRoute } from '../core/router-guard.js';
 import { mountNav } from '../components/nav.js';
+import { mountAppShell } from '../components/shell.js';
 import { wordsApi } from '../api/wordsApi.js';
 import { vocabularyApi } from '../api/vocabularyApi.js';
 import { $, debounce } from '../utils/dom.js';
@@ -11,6 +12,7 @@ import { renderWordList } from '../components/wordList.js';
 if (!guardRoute()) {
   /* redirected */
 } else {
+  mountAppShell();
   mountNav();
   initLibrary();
 }

@@ -1,5 +1,6 @@
 import { guardRoute } from '../core/router-guard.js';
 import { mountNav } from '../components/nav.js';
+import { mountAppShell } from '../components/shell.js';
 import { learningApi } from '../api/learningApi.js';
 import { $, el, setChildren } from '../utils/dom.js';
 import { toast } from '../components/toast.js';
@@ -12,6 +13,7 @@ import { difficultyLabel, statusLabel } from '../utils/format.js';
 if (!guardRoute()) {
   /* redirected */
 } else {
+  mountAppShell();
   mountNav();
   initLearn();
 }
@@ -191,7 +193,7 @@ function renderCard(root) {
   setChildren(root, [
     el('div', { className: 'max-w-xl mx-auto fade-up' }, [
       el('header', { className: 'mb-6 text-center sm:text-left' }, [
-        el('p', { className: 'text-sm font-semibold text-[var(--teal-600)]', text: 'Learn' }),
+        el('p', { className: 'section-eyebrow', text: 'Learn' }),
         el('h1', { className: 'font-display text-3xl font-semibold', text: 'Flashcards' }),
       ]),
       el('div', { className: 'glass-panel p-4 mb-5' }, [

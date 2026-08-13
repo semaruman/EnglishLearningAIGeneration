@@ -1,25 +1,22 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#060912" />
   <title>AI English Learning — Sign in</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;1,6..12,400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
       theme: {
         extend: {
-          colors: {
-            skyglass: { 50: '#f0f9ff', 100: '#e0f2fe', 200: '#bae6fd' },
-            mintglass: { 50: '#f0fdfa', 100: '#ccfbf1', 200: '#99f6e4' },
-            ink: '#0b1f33',
-          },
+          colors: { ink: '#f4f7fc', accent: '#5ba3ff' },
           fontFamily: {
-            sans: ['Nunito Sans', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif'],
-            display: ['Nunito Sans', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif'],
+            sans: ['Inter', 'SF Pro Display', 'Segoe UI', 'system-ui', 'sans-serif'],
+            display: ['Inter', 'SF Pro Display', 'Segoe UI', 'system-ui', 'sans-serif'],
           },
         },
       },
@@ -30,10 +27,17 @@
 <body>
   <div id="toast-host" class="toast-host" aria-live="polite"></div>
   <main class="auth-shell">
+    <aside class="auth-visual" aria-hidden="true">
+      <div class="mb-6 text-center">
+        <p class="brand-mark text-3xl mb-3">AI English Learning</p>
+        <p class="text-muted max-w-sm mx-auto">Vocabulary, spaced review, and reading practice — in one calm space.</p>
+      </div>
+      <div id="auth-orb" class="orb-host"></div>
+    </aside>
     <div class="auth-card glass-panel p-7 sm:p-9 fade-up">
       <div class="text-center mb-8">
-        <p class="brand-mark text-2xl sm:text-3xl text-[var(--ink)] mb-2 leading-tight">AI English Learning</p>
-        <h1 class="text-lg font-semibold text-[var(--ink)]">Sign in</h1>
+        <p class="brand-mark text-2xl sm:text-3xl mb-2 leading-tight">AI English Learning</p>
+        <h1 class="text-lg font-semibold">Sign in</h1>
         <p class="text-sm text-muted mt-1">Continue your English learning journey</p>
       </div>
 
@@ -71,7 +75,7 @@
 
       <p class="text-center text-sm text-muted mt-6">
         New here?
-        <a href="register.html" class="font-semibold text-[var(--teal-600)] no-underline hover:underline">Create an account</a>
+        <a href="register.html" class="font-semibold no-underline hover:underline">Create an account</a>
       </p>
     </div>
   </main>

@@ -45,7 +45,7 @@ export function wordCard({ word, onOpen, onDelete, showStatus = true } = {}) {
   return el(
     'article',
     {
-      className: 'word-card glass-panel p-4 flex items-start justify-between gap-3 fade-up',
+      className: 'word-card glass-panel tilt-card p-4 flex items-start justify-between gap-3 fade-up',
       tabindex: onOpen ? '0' : undefined,
       role: onOpen ? 'button' : undefined,
       'aria-label': onOpen ? `Open details for ${text}` : undefined,

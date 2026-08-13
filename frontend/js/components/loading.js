@@ -16,6 +16,15 @@ export function skeletonBlock({ className = 'h-24 w-full' } = {}) {
   return el('div', { className: `skeleton ${className}`, 'aria-hidden': 'true' });
 }
 
+export function glassSkeleton({ rows = 3 } = {}) {
+  return el('div', { className: 'skeleton-panel space-y-3', role: 'status', 'aria-label': 'Loading' }, [
+    skeletonBlock({ className: 'h-6 w-1/3' }),
+    ...Array.from({ length: rows }, (_, i) =>
+      skeletonBlock({ className: i === rows - 1 ? 'h-16 w-2/3' : 'h-20 w-full' }),
+    ),
+  ]);
+}
+
 export function inlineSpinner() {
   return el('span', {
     className: 'spinner inline-block align-middle',

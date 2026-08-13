@@ -10,7 +10,7 @@ export function progressBar({ value = 0, max = 100, label, showPercent = true } 
   return el('div', { className: 'w-full', role: 'group', 'aria-label': label || 'Progress' }, [
     (label || showPercent)
       ? el('div', { className: 'flex items-center justify-between mb-2 text-sm' }, [
-          label ? el('span', { className: 'font-medium text-[var(--ink)]', text: label }) : el('span'),
+          label ? el('span', { className: 'font-medium text-[var(--text)]', text: label }) : el('span'),
           showPercent ? el('span', { className: 'text-muted tabular-nums', text: `${pct}%` }) : null,
         ])
       : null,

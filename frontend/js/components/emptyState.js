@@ -18,7 +18,16 @@ export function emptyState({
   icon = 'book',
 } = {}) {
   return el('div', { className: 'empty-state glass-panel fade-in' }, [
-    el('div', { html: ICONS[icon] || ICONS.book, 'aria-hidden': 'true' }),
+    el('div', {
+      className: 'mx-auto mb-4 w-16 h-16 rounded-full flex items-center justify-center',
+      style: {
+        background: 'radial-gradient(circle, rgba(91,163,255,0.25), rgba(255,255,255,0.04))',
+        boxShadow: '0 0 40px rgba(91,163,255,0.2)',
+        border: '1px solid rgba(255,255,255,0.14)',
+      },
+      html: ICONS[icon] || ICONS.book,
+      'aria-hidden': 'true',
+    }),
     el('h3', { className: 'font-display text-xl font-semibold mb-1', text: title }),
     description
       ? el('p', { className: 'text-muted text-sm max-w-sm mx-auto mb-4', text: description })

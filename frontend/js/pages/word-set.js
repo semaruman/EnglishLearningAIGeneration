@@ -1,5 +1,6 @@
 import { guardRoute } from '../core/router-guard.js';
 import { mountNav } from '../components/nav.js';
+import { mountAppShell } from '../components/shell.js';
 import { wordSetsApi } from '../api/wordSetsApi.js';
 import { $, el, setChildren } from '../utils/dom.js';
 import { toast } from '../components/toast.js';
@@ -10,6 +11,7 @@ import { button } from '../components/button.js';
 if (!guardRoute()) {
   /* redirected */
 } else {
+  mountAppShell();
   mountNav();
   initWordSet();
 }

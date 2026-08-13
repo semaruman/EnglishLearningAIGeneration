@@ -2,10 +2,16 @@ import { guardRoute } from '../core/router-guard.js';
 import { authService } from '../services/authService.js';
 import { $ } from '../utils/dom.js';
 import { toast } from '../components/toast.js';
+import { mountAppShell } from '../components/shell.js';
+import { mountLanguageOrb } from '../components/languageOrb.js';
 
 if (!guardRoute({ requireAuth: false })) {
   /* redirected */
 } else {
+  mountAppShell({ tilt: false });
+  const orb = document.getElementById('auth-orb');
+  if (orb) mountLanguageOrb(orb, { interactive: true }).catch(() => {});
+
   const form = $('#register-form');
   const submitBtn = $('#register-submit');
 
