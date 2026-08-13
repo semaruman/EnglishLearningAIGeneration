@@ -1,4 +1,4 @@
-import { el, setChildren } from '../utils/dom.js';
+﻿import { el, setChildren } from '../utils/dom.js';
 
 const NAV_ITEMS = [
   {
@@ -78,9 +78,9 @@ export function mountNav() {
   if (topHost) {
     const brand = el('a', {
       href: 'index.html',
-      className: 'brand-mark text-xl text-[var(--ink)] no-underline shrink-0',
-      'aria-label': 'LexiFlow home',
-      text: 'LexiFlow',
+      className: 'brand-mark text-base sm:text-lg lg:text-xl text-[var(--ink)] no-underline shrink-0 max-w-[11rem] sm:max-w-none leading-tight',
+      'aria-label': 'AI English Learning home',
+      text: 'AI English Learning',
     });
 
     const links = el(

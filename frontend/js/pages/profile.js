@@ -1,4 +1,4 @@
-import { guardRoute } from '../core/router-guard.js';
+﻿import { guardRoute } from '../core/router-guard.js';
 import { mountNav } from '../components/nav.js';
 import { authService } from '../services/authService.js';
 import { appState } from '../core/appState.js';
@@ -70,7 +70,7 @@ async function initProfile() {
           label: 'Log out',
           variant: 'danger',
           onClick: () => authService.logout(),
-          attrs: { 'aria-label': 'Log out of LexiFlow' },
+          attrs: { 'aria-label': 'Log out of AI English Learning' },
         }),
       ]),
     ]),
